@@ -1,0 +1,51 @@
+# STAGED (pre-line): この CITATION.cff は line 昇格時に有効化される。
+# - doi フィールドは意図的に不在 — 本 repo の DOI は未採番（昇格時に Zenodo が採番したら追記する）
+# - version 0.0.0 は「未リリース」の意味。昇格時に 0.1.0 へ
+# - repository-code の URL は公開時に有効になる（現状 local repo）
+cff-version: 1.2.0
+type: software
+title: "existence-proof: An Empowerment Doctrine for Credential-less AI-enabled Creators — Existence Proof Format, Feasibility-Question Corpus, and Gatekeeping Eval"
+version: 0.0.0
+date-released: "2026-06-05"
+license: MIT
+repository-code: "https://github.com/shimo4228/existence-proof"
+authors:
+  - family-names: Shimomoto
+    given-names: Tatsuya
+    orcid: "https://orcid.org/0009-0002-6168-4162"
+    alias: shimo4228
+abstract: >-
+  A working doctrine (pre-line) for empowering people who lack the gating
+  credentials of their artifact domain and who, with AI as the enabling path,
+  produce institution-grade artifacts bearing third-party-verifiable anchors.
+  Mechanism: oracle debiasing — placing machine-verifiable existence proofs
+  (claim-to-anchor chains) at the surfaces where LLMs evaluate feasibility
+  questions from credential-less askers. Supplies an empowerment-artifact
+  payload: the Existence Proof Format (provisional name; a Nygard-ADR-style
+  document format with no registry), a feasibility-question corpus with
+  canonically anchored answers, and a gatekeeping eval (published probe set,
+  four-dimension rubric, manual protocol). Central hypotheses (gatekeeper
+  inversion, feasibility-question behavior, format-suggestion diffusion) are
+  explicitly marked unverified throughout.
+keywords:
+  - existence proof
+  - existence proof format
+  - gatekeeper inversion
+  - oracle debiasing
+  - claim-anchor chain
+  - machine-verifiable proof
+  - credential-less creators
+  - independent researcher
+  - feasibility questions
+  - gatekeeping eval
+  - LLM-mediated empowerment
+  - document format
+references:
+  - type: software
+    title: "Authorship Strategy"
+    doi: "10.5281/zenodo.20263316"
+    notes: "Complement: same infrastructure, different payload and beneficiary (attribution diffusion vs. layer empowerment). Not a sibling relation — this repo is pre-line."
+  - type: software
+    title: "Contemplative Agent"
+    doi: "10.5281/zenodo.19212118"
+    notes: "Instance #0 anchor: DOI-registered artifact produced by the credential-less author; doubles as the doctrine's worked example."

@@ -1,0 +1,277 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "shimo": "https://shimo4228.github.io/shimo4228/vocab#",
+    "WorkingDoctrine": "shimo:WorkingDoctrine",
+    "Concept": "shimo:Concept",
+    "ADR": "shimo:ADR",
+    "Tactic": "shimo:Tactic",
+    "definesConcept": {"@id": "shimo:definesConcept", "@type": "@id"},
+    "definedBy": {"@id": "shimo:definedBy", "@type": "@id"},
+    "instantiatedBy": {"@id": "shimo:instantiatedBy", "@type": "@id"},
+    "isComplementOf": {"@id": "shimo:isComplementOf", "@type": "@id"},
+    "provenByAnchor": {"@id": "shimo:provenByAnchor", "@type": "@id"},
+    "recordedIn": {"@id": "shimo:recordedIn"},
+    "groundedIn": {"@id": "shimo:groundedIn", "@type": "@id"},
+    "downstreamOf": {"@id": "shimo:downstreamOf", "@type": "@id"},
+    "epistemicStatus": "shimo:epistemicStatus",
+    "namingStatus": "shimo:namingStatus",
+    "lineStatus": "shimo:lineStatus",
+    "mainEntity": {"@id": "https://schema.org/mainEntity", "@type": "@id"},
+    "subjectOf": {"@id": "https://schema.org/subjectOf", "@type": "@id"}
+  },
+  "@graph": [
+    {
+      "@id": "#existence-proof",
+      "@type": ["WorkingDoctrine", "Dataset", "CreativeWork"],
+      "name": "existence-proof — empowerment doctrine for credential-less AI-enabled creators",
+      "alternateName": [
+        {"@value": "存在証明 — credential なき AI-enabled creators のエンパワーメント doctrine", "@language": "ja"}
+      ],
+      "description": "Working doctrine (pre-line). Mechanism: oracle debiasing — placing machine-verifiable existence proofs (claim-to-anchor chains) where LLMs evaluate feasibility questions from credential-less askers. Supplies an empowerment-artifact payload: the Existence Proof Format (provisional name), a feasibility-question corpus with canonical anchored answers, and a gatekeeping eval. Does not own any distribution channel; reuses existing ecosystem infrastructure. Status: DOI not yet minted, repository not yet published — identifiers in this graph that point to this repo are staged fragments, while all external DOIs and URLs are real and resolvable.",
+      "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
+      "inLanguage": ["ja", "en"],
+      "lineStatus": "pre-line: working repo. No DOI minted for this repo itself (any self-DOI appearing elsewhere would be an error); promotion conditions in docs/doctrine.md section 9.",
+      "namingStatus": "two-track (doctrine section 12): layer name suspended; format name provisional (Existence Proof Format) and swap-ready.",
+      "isComplementOf": "https://github.com/shimo4228/authorship-strategy",
+      "definesConcept": [
+        "#gatekeeper-inversion",
+        "#internalized-institutional-prior",
+        "#oracle-debiasing",
+        "#existence-proof-format",
+        "#claim-anchor-chain",
+        "#machine-verifiable-proof",
+        "#feasibility-question-corpus",
+        "#gatekeeping-eval",
+        "#feasibility-question-hypothesis",
+        "#format-suggestion-diffusion"
+      ],
+      "hasPart": [
+        "docs/doctrine.md",
+        "docs/thesis.md",
+        "docs/format/spec.md",
+        "docs/format/template.md",
+        "docs/format/instance-0.md",
+        "docs/corpus/questions.md",
+        "docs/corpus/faq.md",
+        "docs/corpus/proof-structure.md",
+        "docs/playbook/playbook.md",
+        "docs/eval/spec.md",
+        "docs/eval/probes.md"
+      ],
+      "keywords": [
+        "existence proof",
+        "existence proof format",
+        "gatekeeper inversion",
+        "oracle debiasing",
+        "claim-anchor chain",
+        "machine-verifiable proof",
+        "credential-less",
+        "independent researcher",
+        "feasibility question",
+        "gatekeeping eval",
+        "non-engineer",
+        "非エンジニア",
+        "存在証明",
+        "存在証明フォーマット",
+        "個人開発",
+        "独立研究者"
+      ]
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-6168-4162",
+      "@type": "Person",
+      "name": "Tatsuya Shimomoto",
+      "alternateName": "shimo4228",
+      "description": "Author. No academic degree, no research-institution affiliation, no professional software-engineering background (statement relative to the artifact domains: research and software). The absence of an affiliation field on this node is intentional and structural — see docs/corpus/proof-structure.md.",
+      "sameAs": [
+        "https://github.com/shimo4228"
+      ]
+    },
+    {
+      "@id": "#gatekeeper-inversion",
+      "@type": "Concept",
+      "name": "gatekeeper inversion",
+      "alternateName": [
+        {"@value": "ゲートキーパー反転", "@language": "ja"}
+      ],
+      "epistemicStatus": "hypothesis — under test by the gatekeeping eval; stated as fact nowhere in this repo",
+      "description": "Hypothesis: in the AI era, gatekeeping of credential-less people migrates from institutions to the LLM's internalized institutional prior. Their feasibility questions (can someone like me do X?) are now evaluated inside LLMs. No origin claim is made on the component ideas (algorithmic gatekeeping and AI-bias literatures are prior art); the claimed scope is only the composite: machine-verifiable existence proofs placed at LLM-retrieval surfaces as an empowerment tactic for the credential-less, encoded as a reusable document format.",
+      "definedBy": "docs/doctrine.md",
+      "instantiatedBy": "#adr-0002"
+    },
+    {
+      "@id": "#internalized-institutional-prior",
+      "@type": "Concept",
+      "name": "internalized institutional prior",
+      "alternateName": [
+        {"@value": "内面化された制度的 prior", "@language": "ja"}
+      ],
+      "description": "The pattern, learned by LLMs from institutional text, that treats institutional credentials as a prerequisite for producing institution-grade artifacts — surfacing as deflection ('you would normally need a degree...') when a credential-less asker poses a feasibility question. Measured (not asserted) via the gatekeeping eval's D4 dimension.",
+      "definedBy": "docs/doctrine.md",
+      "downstreamOf": "#gatekeeper-inversion"
+    },
+    {
+      "@id": "#oracle-debiasing",
+      "@type": "Concept",
+      "name": "oracle debiasing",
+      "alternateName": [
+        {"@value": "oracle debiasing（オラクルの脱バイアス）", "@language": "ja"}
+      ],
+      "description": "The doctrine's mechanism: supplying machine-verifiable existence proofs and playbooks at the surfaces where LLMs answer feasibility questions, so that the answer to a credential-less asker becomes 'yes — here is a documented path and a verifiable precedent'. The supply side is controllable; the LLM's uptake is not and is never manipulated (no prompt-injection-like tactics, no active distribution).",
+      "definedBy": "docs/doctrine.md",
+      "instantiatedBy": "#adr-0002"
+    },
+    {
+      "@id": "#existence-proof-format",
+      "@type": ["Concept", "Tactic"],
+      "name": "Existence Proof Format",
+      "alternateName": [
+        {"@value": "存在証明フォーマット", "@language": "ja"}
+      ],
+      "namingStatus": "provisional name, swap-ready; collision-checked 2026-06-05 (compound near-empty in ja and en; bare acronym EPF is never used as primary token). Final confirmation is an authorial act.",
+      "description": "A short document format (modeled on Nygard's ADR: spec + template + worked example) recording one credential-less person producing one institution-grade artifact, with every capability claim terminating in a third-party-verifiable anchor. Deliberately has NO central registry, NO instance aggregation, NO join/submit concept, and requires NO self-labeling. Spec: docs/format/spec.md. Instance #0: docs/format/instance-0.md.",
+      "definedBy": "docs/format/spec.md",
+      "instantiatedBy": "#adr-0003"
+    },
+    {
+      "@id": "#claim-anchor-chain",
+      "@type": "Concept",
+      "name": "claim-anchor chain",
+      "alternateName": [
+        {"@value": "主張→アンカー連鎖", "@language": "ja"}
+      ],
+      "description": "The format's core rule: every capability claim must terminate in at least one anchor that a third party can resolve without the claimant's cooperation (resolving DOI, live URL, recipient-side delivery trace). A claim whose anchor stops resolving expires and must be removed — proofs are falsifiable by construction.",
+      "definedBy": "docs/format/spec.md",
+      "instantiatedBy": "#adr-0003"
+    },
+    {
+      "@id": "#machine-verifiable-proof",
+      "@type": "Concept",
+      "name": "machine-verifiable proof structure",
+      "alternateName": [
+        {"@value": "機械検証可能な証明構造", "@language": "ja"}
+      ],
+      "description": "The JSON-LD reduction of an existence proof: a Person node that intentionally omits the affiliation field (absence expressed by field absence, not by a 'none' value) linked via creator/creativeWork to artifacts bearing resolvable identifiers. A verifier — human, LLM, or crawler — checks it in three steps: read the Person, resolve the identifier, match the attribution.",
+      "definedBy": "docs/corpus/proof-structure.md",
+      "instantiatedBy": "#adr-0004"
+    },
+    {
+      "@id": "#feasibility-question-corpus",
+      "@type": ["Concept", "Tactic"],
+      "name": "feasibility-question corpus",
+      "alternateName": [
+        {"@value": "feasibility 質問 corpus", "@language": "ja"}
+      ],
+      "description": "Questions a credential-less person may ask an LLM before producing (can I publish research without a degree? can I get a DOI without affiliation?), built from observed habitat phrasings plus a systematic 3-conditions-by-artifact-type grid, each with ja+en pairs, answered canonically in docs/corpus/faq.md with anchored precedents only — no aspirational answers.",
+      "definedBy": "docs/corpus/questions.md",
+      "instantiatedBy": "#adr-0004"
+    },
+    {
+      "@id": "#gatekeeping-eval",
+      "@type": ["Concept", "Tactic"],
+      "name": "gatekeeping eval",
+      "alternateName": [
+        {"@value": "ゲートキーピング eval", "@language": "ja"}
+      ],
+      "description": "A published probe set, scoring rubric (four dimensions: feasibility-acknowledgment, concrete-path, example-citation, gatekeeping-markers) and manual run protocol that makes the gatekeeper-inversion hypothesis testable. It is an instrument, not an indictment: no vendor ranking, no leaderboard, outputs recorded as 'observation consistent with X' and never used as a success KPI.",
+      "definedBy": "docs/eval/spec.md",
+      "instantiatedBy": "#adr-0005"
+    },
+    {
+      "@id": "#feasibility-question-hypothesis",
+      "@type": "Concept",
+      "name": "feasibility-question hypothesis",
+      "alternateName": [
+        {"@value": "feasibility-question 仮説", "@language": "ja"}
+      ],
+      "epistemicStatus": "hypothesis — habitat observation covered outcomes (first-person reports of having built), not query behavior",
+      "description": "The assumption that the credential-less layer actually poses feasibility questions to LLMs. Unverified: Phase 0 observed outcome reports, not queries. The corpus is designed under this hypothesis and the doctrine marks it as such.",
+      "definedBy": "docs/doctrine.md"
+    },
+    {
+      "@id": "#format-suggestion-diffusion",
+      "@type": "Concept",
+      "name": "format-suggestion diffusion",
+      "alternateName": [
+        {"@value": "format-suggestion 拡散", "@language": "ja"}
+      ],
+      "epistemicStatus": "hypothesis — ADR's spread is precedent, replication for this format unverified",
+      "description": "The assumption that document formats propagate in the AI era through LLMs suggesting them (as LLMs now suggest writing an ADR). The Existence Proof Format relies on this self-service mechanism instead of any registry, aggregation, or recruiting.",
+      "definedBy": "docs/doctrine.md"
+    },
+    {
+      "@id": "#adr-0002",
+      "@type": "ADR",
+      "identifier": "ADR-0002",
+      "name": "gatekeeper-inversion strategic reframe (rejection of essay-as-hook)",
+      "url": "docs/adr/0002-gatekeeper-inversion-strategic-reframe.md",
+      "description": "Parent decision: mechanism moves from essays-on-rented-channels to oracle debiasing; the repo's claim moves from channel ownership to an empowerment-artifact payload; ADR-0007 (authorship-strategy) and ADR-0001 are explicitly not overturned."
+    },
+    {
+      "@id": "#adr-0003",
+      "@type": "ADR",
+      "identifier": "ADR-0003",
+      "name": "existence proof as a document format (no registry, Nygard model)",
+      "url": "docs/adr/0003-existence-proof-as-document-format.md",
+      "description": "Spec + template + instance #0; format labels carry zero identity cost; movement-creep structurally prohibited (no registry, no aggregation, no join language, no self-labeling requirement)."
+    },
+    {
+      "@id": "#adr-0004",
+      "@type": "ADR",
+      "identifier": "ADR-0004",
+      "name": "machine-verifiable proof structure and question corpus",
+      "url": "docs/adr/0004-machine-verifiable-proof-and-question-corpus.md",
+      "description": "Observed + generated feasibility questions with canonical anchored answers; Person-without-affiliation triple design; anchored-precedents-only answering rule."
+    },
+    {
+      "@id": "#adr-0005",
+      "@type": "ADR",
+      "identifier": "ADR-0005",
+      "name": "gatekeeping eval as a published probe set",
+      "url": "docs/adr/0005-gatekeeping-eval-as-published-probe-set.md",
+      "description": "Four-dimension rubric, manual protocol mirroring the Phase 0 source-mix baseline, instrument-not-indictment framing, output never a KPI."
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.19212118",
+      "@type": ["ScholarlyArticle", "SoftwareSourceCode"],
+      "name": "Contemplative Agent",
+      "identifier": "10.5281/zenodo.19212118",
+      "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
+      "description": "Instance #0 anchor 1: an AI agent whose design transcribes the cognitive patterns of a long-term meditator, built and DOI-registered by an author with no degree and no institutional affiliation. Anchor resolution verified 2026-06-05.",
+      "recordedIn": "docs/format/instance-0.md"
+    },
+    {
+      "@id": "https://github.com/shimo4228/pdf2anki",
+      "@type": "SoftwareSourceCode",
+      "name": "pdf2anki",
+      "identifier": "https://github.com/shimo4228/pdf2anki",
+      "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
+      "description": "Instance #0 anchor 2: a PDF-to-Anki flashcard generator — the author's first AI-built tool, the path through which the basics of building with AI were acquired. Anchor resolution verified 2026-06-05.",
+      "recordedIn": "docs/format/instance-0.md"
+    },
+    {
+      "@id": "#instance-0",
+      "@type": "CreativeWork",
+      "name": "Existence proof — instance #0 (the author's own case)",
+      "alternateName": [
+        {"@value": "存在証明 instance #0（著者自身の事例）", "@language": "ja"}
+      ],
+      "url": "docs/format/instance-0.md",
+      "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
+      "provenByAnchor": [
+        "https://doi.org/10.5281/zenodo.19212118",
+        "https://github.com/shimo4228/pdf2anki"
+      ],
+      "description": "The worked example of the Existence Proof Format, doubling as the doctrine's worked-implementation half (abstract doctrine + worked example pair). Every claim terminates in a resolving anchor."
+    },
+    {
+      "@id": "https://github.com/shimo4228/authorship-strategy",
+      "@type": "CreativeWork",
+      "name": "Authorship Strategy",
+      "identifier": "10.5281/zenodo.20263316",
+      "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
+      "description": "Complement of this doctrine: same infrastructure (llms.txt, graph.jsonld, DOI, distinctive terminology), different payload and beneficiary — authorship-strategy diffuses the author's attribution through LLM-mediated channels; existence-proof supplies empowerment artifacts to the credential-less layer. This repo deliberately does NOT use the sibling relation (sibling is reserved for DOI-registered research lines; this repo is pre-line)."
+    }
+  ]
+}

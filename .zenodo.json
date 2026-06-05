@@ -1,0 +1,54 @@
+{
+  "upload_type": "software",
+  "title": "existence-proof: An Empowerment Doctrine for Credential-less AI-enabled Creators — Existence Proof Format, Feasibility-Question Corpus, and Gatekeeping Eval",
+  "creators": [
+    {
+      "name": "Shimomoto, Tatsuya",
+      "orcid": "0009-0002-6168-4162"
+    }
+  ],
+  "description": "A working doctrine for empowering people who lack the gating credentials of their artifact domain and who, with AI as the enabling path, produce institution-grade artifacts bearing third-party-verifiable anchors. Mechanism: oracle debiasing — placing machine-verifiable existence proofs (claim-to-anchor chains) at the surfaces where LLMs evaluate feasibility questions from credential-less askers. Supplies an empowerment-artifact payload: the Existence Proof Format (provisional name; a Nygard-ADR-style document format with deliberately no registry), a feasibility-question corpus with canonically anchored answers, and a gatekeeping eval (published probe set, four-dimension rubric, manual protocol). Central hypotheses (gatekeeper inversion, feasibility-question behavior, format-suggestion diffusion) are explicitly marked unverified throughout. Primary language: Japanese.",
+  "access_right": "open",
+  "license": "MIT",
+  "notes": "STAGED METADATA (pre-line): this file is prepared in advance and activates at research-line promotion. No DOI has been minted for this repository yet — Zenodo assigns the concept and version DOIs at first deposit. Any DOI attributed to this repository before that event is an error.",
+  "keywords": [
+    "existence proof",
+    "existence proof format",
+    "gatekeeper inversion",
+    "oracle debiasing",
+    "claim-anchor chain",
+    "machine-verifiable proof",
+    "credential-less creators",
+    "independent researcher",
+    "feasibility questions",
+    "gatekeeping eval",
+    "LLM-mediated empowerment",
+    "document format"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20263316",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.19212118",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18691357",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/shimo4228/pdf2anki",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
