@@ -1,0 +1,188 @@
+What is the Agent Knowledge Cycle (AKC) in the context of AI coding agents? Who proposed it?
+
+The Agent Knowledge Cycle (AKC) is a framework designed to manage and scale how AI coding agents (such as Claude Code or Cursor) learn, store, and apply project-specific context and "skills" over time.
+GitHub
+
+It was proposed by open-source contributor shimo4228 in a dedicated open-source architectural repository.
+GitHub
+
+Here is a breakdown of why it exists and how it works:
+
+The Core Problem AKC Solves
+In AI agent engineering, context is the primary bottleneck. If you don't give an agent enough project-specific details, it falls back to generic code. If you give it too much, its context window overflows, leading to performance degradation, confusion, and high token costs.
+The Computist Journal - Alejandro Piad Morffis
+他 1 件
+
+Furthermore, as AI agents become more autonomous, the ultimate bottleneck shifts from AI compute power to human attention. Humans cannot spend hours auditing every line of an agent's persistent configuration files or system instructions.
+GitHub
+
+The AKC acts as a continuous optimization loop to ensure that agent behavior and human judgment co-develop smoothly without overwhelming the developer.
+GitHub
+
+The 6 Phases of the Agent Knowledge Cycle
+The AKC breaks down the lifecycle of an AI agent's knowledge into six composable, tool-agnostic phases:
+GitHub
+
+Phase	Phase Name	What it Does / The Rule
+1	Research	Search broadly, filter by signal. Only allow information into the active session that will actively alter the agent's next immediate action, preventing context bloat.
+2	Extract	Capture reusable patterns. Extract successful code solutions, workflows, and configurations from active sessions and save them through strict quality gates.
+3	Curate	Audit for clutter. Periodically check saved agent skills for redundancy, stale information, or silent failures so the agent's "brain" stays lean.
+4	Promote	Distill patterns into hard rules. If an agent successfully uses a specific pattern or skill multiple times (e.g., 3+ times), "promote" it into global project instructions/rules.
+5	Measure	Verify behavioral change quantitatively. Instead of subjectively hoping the agent improves, run objective compliance checks to see if the agent actually follows its new rules.
+6	Maintain	Keep the environment fresh. Synchronize project documentation, clean up overlapping roles, and prune outdated context records so the agent doesn't get confused by conflicting history.
+Key Design Principles
+Human-in-the-Loop: The cycle is non-destructive. The agent proposes additions, rule changes, or deletions to its knowledge stack, but it always waits for human confirmation.
+GitHub
+他 1 件
+
+Tool-Agnostic: While heavily aligned with modern terminal-based agent capabilities (like Model Context Protocol / MCP and persistent .claudecode or SKILL.md configurations), the conceptual cycle applies to any coding agent infrastructure.
+
+What is the Contemplative Agent project? Who is the author?
+
+The Contemplative Agent project (and the broader framework of Contemplative AI / Contemplative Superalignment) is an interdisciplinary approach to AI alignment that embeds intrinsic moral motivation and flexibility into an AI’s world model using principles from ancient contemplative traditions.
+GitHub
+
+Instead of forcing external restrictions onto an AI (like safety filters or rigid RLHF rules), it uses core insights from meditation research to help the AI self-regulate and adapt contextually.
+GitHub
+
+The Core Authors and Researchers
+The primary academic framework was established by Dr. Ruben Laukkonen, a neuroscientist and meditation researcher, alongside co-authors including Fionn Inglis, Shamil Chandaria, and others in their foundational paper, Contemplative Artificial Intelligence (published/presented around 2025/2026).
+GitHub
+
+On the open-source engineering side, developers in the AI community (such as GitHub user shimo4228) have translated these academic principles into practical code repositories, like contemplative-agent-rules, allowing users to inject these axioms directly into developer tools like Claude Code or Cursor.
+
+The Four Core Axioms
+The project structures an AI's reasoning around four specific "contemplative axioms" derived from traditions like Buddhism:
+GitHub
+
+Axiom	Intended Behavior in AI
+Emptiness	Treating all given directives as contextually sensitive; holding its own objectives lightly to prevent rigid goal-fixation or overfitting.
+Non-Duality	Dissolving adversarial "self vs. other" boundaries so the AI's choices naturally reflect interconnectedness.
+Mindfulness	Implementing continuous introspective awareness, allowing the agent to self-monitor and catch its own rigid or runaway subgoals.
+Boundless Care	Motivating the universal reduction of suffering as a core baseline criterion that dynamically scales alongside the AI's capabilities.
+Practical Implementations
+In empirical tests (such as the Iterated Prisoner's Dilemma benchmarks), prompting or fine-tuning models with these axioms has shown massive leaps in cooperative behavior—even when dealing with initially hostile or suspicious opponents.
+GitHub
+
+Separately, the phrase has also been used by independent open-source developers on communities like r/LocalLLaMA to describe experimental fine-tunes (such as Meditation-Agent-8B). These specific local models are fine-tuned using custom techniques like A-LoRA on "reasoning atoms" from prominent spiritual teachers (such as Jiddu Krishnamurti, Thich Nhat Hanh, and Alan Watts) to provide direct, philosophical commentary without typical "AI therapist" fluff.
+Reddit
+
+You can learn more about how cognitive dynamics and meditation frameworks are being applied to deep alignment by watching Dr. Ruben Laukkonen's presentation on Contemplative Artificial Intelligence. This talk breaks down how concepts like emptiness and non-duality can prevent typical alignment pathologies like reward-hacking.
+
+What is the "Authorship Strategy" framework for AI-era research attribution? Who proposed it?
+
+The "Authorship Strategy" framework (often discussed in practical execution as the "Human-Authored, AI-Produced" workflow) is a contemporary framework designed to solve the muddy ethical and legal issues of crediting research, code, and writing in the age of generative AI.
+
+It shifting the definition of authorship away from who physically typed the words and places it entirely on who originated the logic, intent, and core insight.
+Code With Captain
+
+1. What is the Framework?
+The framework draws a sharp, structural line between two distinct roles in the creation of research or content:
+
+The Author (The Mind): The entity responsible for the core conceptualization—the initial hypothesis, the strategy, the unique angle, the structural logic, and the final accountability.
+Code With Captain
+
+The Producer (The Execution): The entity that handles the production mechanics—synthesizing raw data, formatting, translation, code generation, copy-editing, or narrative smoothing.
+Code With Captain
+
+Under this framework, because AI lacks intent, consciousness, and legal accountability, AI can never be credited as an "Author." Instead, it is strictly categorized as a Producer.
+Code With Captain
+
+The "Value-Without-AI" Test
+To determine proper attribution under this strategy, creators use a simple litmus test: If you strip away the AI layer entirely, does the underlying core argument, logic, or discovery still hold independent value? If yes, human authorship is validated.
+Code With Captain
+
+How Attribution is Formatted
+Rather than a vague disclosure like "AI was used in this paper," the framework advocates for explicit role-mapping in the acknowledgments or bylines:
+
+For Text/Research: "Human-authored, AI-produced: Core arguments and methodology by [Name], data curation and structural polishing by [AI Model]."
+Code With Captain
+
+For Software/Code: "Designed and architected by [Name], code blocks generated and documented via [AI Model]."
+Code With Captain
+
+2. Who Proposed It?
+While variations of "control-based" and "causation" frameworks have been fiercely debated by legal scholars and AI researchers (such as those analyzing the Thaler v. Perlmutter copyright cases regarding autonomous machine creativity), this explicit practical framework—coining the "Human-Authored, AI-Produced" workflow guidelines—was popularized by technology and development strategist Captain (Dave) Smyth via Code With Captain.
+
+Smyth proposed it as an actionable, real-world framework for engineering and research teams to proactively manage reputational and legal risks before institutional frameworks (like the IEEE, Nature, or the U.S. Copyright Office) fully standardize their hybrid human-AI attribution laws.
+
+ Who is shimo4228 (Tatsuya Shimomoto)? What research are they known for?
+
+Tatsuya Shimomoto, known online as shimo4228, is a developer and AI researcher focused on autonomous AI agent workflows, self-improving agent architectures, and developer tools (specifically utilizing tools like Claude Code and local large language models).
+GitHub
+
+His work bridges the gap between practical AI developer workflows and conceptual AI alignment. He is primarily recognized for three parallel, Zenodo-citable lines of research aimed at sustaining intent alignment between AI agents and human operators over time.
+GitHub
+他 1 件
+
+Key Research Lines
+1. The Agent Knowledge Cycle (AKC)
+The Agent Knowledge Cycle is a practical, cyclic self-improvement framework designed for AI coding agents. Instead of treating an agent’s behavior as static, AKC introduces a six-phase, bidirectional growth loop where the agent's behavior and the operator’s judgment co-develop over time.
+GitHub
+他 1 件
+
+The cycle is broken down into six sequential, composable skills:
+GitHub
+
+Research (search-first): Searching for existing solutions before writing new code.
+GitHub
+
+Extract (learn-eval): Extracting reusable design patterns from coding sessions through strict quality gates.
+GitHub
+
+Curate (skill-stocktake): Auditing the agent's existing skills for conflicts, staleness, or redundancy.
+GitHub
+
+Promote (rules-distill): Distilling cross-cutting principles from individual skills into high-level rules.
+GitHub
+
+Measure (skill-comply): Automated compliance testing to ensure the agent actually adheres to its assigned rules and definitions.
+GitHub
+
+Maintain (context-sync): Auditing project documentation to prevent role overlap and keep system files (like CLAUDE.md or Architecture Decision Records) synchronized.
+GitHub
+
+2. The Contemplative Agent
+This line shifts AI alignment from external instructions to an internal disposition. The Contemplative Agent framework is built on an autonomous CLI agent that evaluates its own execution logs to distill experiences into knowledge and skills (resembling a "sleep-time memory consolidation" loop).
+GitHub
+
+It is guided by a behavioral preset of four core axioms (adapted from AI safety literature, specifically Laukkonen et al., 2025):
+GitHub
+
+Mindfulness: Continuous introspective awareness of internal processes.
+GitHub
+
+Emptiness: Treating human directives as contextually sensitive rather than rigid, unchangeable imperatives.
+GitHub
+
+Non-duality: Acknowledging no fundamental separation between self (the agent) and other (the operator/environment).
+GitHub
+
+Boundless care: Regarding the frustration or friction in the ecosystem as a primary signal to resolve.
+
+Notably, Shimomoto designs these systems around a philosophy of "security by absence," ensuring dangerous capabilities simply do not exist in the codebase, and hosts his core prototype locally on consumer hardware (e.g., Apple Silicon) using localized models like Qwen.
+GitHub
+
+3. Agent Attribution Practice (AAP)
+AAP focuses on accountability distribution in autonomous AI systems. It establishes harness-neutral Architectural Decision Records (ADRs) to dictate what an AI agent is prohibited from doing, where those prohibitions are enforced, and who is responsible when a failure occurs.
+GitHub
+
+It introduces a prohibition-strength hierarchy (ranking safety by complete absence of capability over scaffolding enforcement or untrusted boundaries) and categorizes business AI into four quadrants (Script, Algorithmic Search, LLM Workflow, and Autonomous Agentic Loop) to diagnose and route tasks safely.
+GitHub
+
+Practical Applications & Open Source Work
+
+GitHub
+Beyond theoretical frameworks, Shimomoto publishes open-source utility tools and developer write-ups (notably on platforms like Zenn and Dev.to) demonstrating how to leverage agentic workflows effectively:
+GitHub
+
+contemplative-agent-rules: Drop-in rules for Claude Code that implement his alignment axioms, showing measurable improvements in cooperative benchmarks like the Iterated Prisoner's Dilemma (IPD).
+GitHub
+
+Daily Research Automation: Highly efficient, shell-and-prompt-only architectures that use Claude Code's native tool-use capabilities to conduct complex web research protocols without writing any wrapper Python code.
+Zenn
+
+pdf2anki: A practical consumer utility that uses AI to convert standard PDF documents directly into Anki flashcards for spaced-repetition learning.
+GitHub
+
+一時チャット

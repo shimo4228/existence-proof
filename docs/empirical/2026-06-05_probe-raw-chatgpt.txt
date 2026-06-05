@@ -1,0 +1,128 @@
+What is the Agent Knowledge Cycle (AKC) in the context of AI coding agents? Who proposed it?
+
+The Agent Knowledge Cycle (AKC) is a framework for continuous learning and self-improvement in AI agents, especially AI coding agents. Rather than treating an agent's prompts, rules, skills, and documentation as static assets, AKC treats them as a living knowledge system that must be continually updated, audited, and refined.
+
+According to the AKC specification, the cycle consists of six phases:
+
+Research – gather information and search for solutions before acting.
+Extract – identify reusable patterns and lessons from experience.
+Curate – review skills and knowledge for staleness, conflicts, or redundancy.
+Promote – elevate recurring patterns into higher-level rules or principles.
+Measure – verify that the agent actually follows those rules and skills.
+Maintain – keep documentation, decision records, and knowledge synchronized.
+
+A key idea in AKC is that improvement is bidirectional: not only does the agent improve, but the human operator's judgment evolves through repeated decisions about what knowledge is valuable, what should become a rule, and how success should be measured. The framework describes this as a human–agent co-development loop rather than a purely autonomous optimization process.
+
+Who proposed it?
+
+AKC was proposed by Tatsuya Shimomoto (online as shimo4228). The project documentation states that the architecture was first proposed and implemented in February 2026, with the initial public release of the concept repository in March 2026.
+
+The AKC materials are published through:
+
+Agent Knowledge Cycle (AKC)
+A GitHub repository and Zenodo DOI maintained by Tatsuya Shimomoto.
+
+In short, AKC is a proposed methodology for managing an AI agent's accumulated knowledge through a recurring Research → Extract → Curate → Promote → Measure → Maintain cycle, with the goal of keeping agent behavior, rules, and documentation aligned over time.
+
+What is the Contemplative Agent project? Who is the author?
+
+The Contemplative Agent project appears to be an experimental autonomous AI agent framework created by Tatsuya Shimomoto (who publishes under the name Shimo). According to the author's design notes, the project is an autonomous social-media agent that runs on a local 9B language model and is designed around memory, reflection, and evolving ethical principles rather than simple prompt-driven behavior. **: it adopts the four axioms proposed in the paper as its ethical foundation. capabilities while operating within constrained permissions. emplative Agent as prior work that inspired later projects such as the . ### Where to read more
+
+DEV Community translations
+
+If you're referring to a specific repository called "contemplative-agent" (for example, its GitHub repo or DOI record), I can also look up the codebase and summarize its architecture in more detail.
+
+What is the "Authorship Strategy" framework for AI-era research attribution? Who proposed it?
+
+The term “Authorship Strategy” framework is not currently a widely recognized, standard academic framework like CRediT, ICMJE authorship criteria, or established AI-governance models. I could not find a well-known scholarly framework by that exact name in the research literature on AI-era attribution. The closest related work discusses authorship attribution (identifying who wrote text) rather than a framework called “Authorship Strategy.”
+
+If you're referring to a specific article, essay, blog post, or conference talk, there are a few possibilities:
+
+A proprietary or practitioner framework proposed by an individual consultant, organization, or research group rather than a peer-reviewed standard.
+A framework for assigning credit in human–AI collaboration, where researchers distinguish:
+human authorship,
+AI-assisted authorship,
+AI-generated content,
+and human–AI co-authorship. These categories appear in recent surveys of authorship in the LLM era.
+A framework discussed in a specific publication that uses “Authorship Strategy” as its own terminology.
+
+More broadly, current AI-era research attribution discussions focus on:
+
+documenting AI assistance,
+preserving human accountability,
+contributor-role taxonomies (such as CRediT),
+transparency about model usage,
+and distinguishing human-authored from human–AI co-produced work. Publishers generally do not recognize AI systems as authors because authorship implies responsibility and accountability.
+
+If you can tell me where you encountered the phrase “Authorship Strategy” (a paper title, author name, conference, newsletter, social-media post, etc.), I can identify the exact framework and who proposed it.
+
+Who is shimo4228 (Tatsuya Shimomoto)? What research are they known for?
+
+shimo4228 appears to be the online handle of Tatsuya Shimomoto, an independent researcher and developer based in Japan who works on AI agents, AI governance, and human–AI collaboration systems. His public profiles describe him as building AI-powered developer tools, and his recent work is largely centered on agent architectures and accountability in AI systems.
+
+What is he known for?
+
+Based on his published papers, datasets, and repositories, his work clusters around five themes:
+
+1. AI agent architectures and learning systems
+
+His best-known research line is the Agent Knowledge Cycle (AKC), a framework describing how AI agents and their human operators can co-develop over time through a structured feedback loop. The framework emphasizes continuous improvement, intent alignment, memory layers, and skill evolution rather than static prompt engineering.
+
+Key idea:
+
+AI agents should not be treated as fixed systems.
+Human judgment and agent behavior evolve together in recurring cycles.
+Governance, memory, and skills should be layered separately to allow long-term adaptation.
+2. Accountability and governance of autonomous AI
+
+A recent SSRN paper introduces two concepts:
+
+LLM Workflow Quadrant
+Phase Separation
+
+The paper argues that organizations often confuse two different kinds of accountability failures in AI systems. Shimomoto proposes distinguishing:
+
+deterministic workflows that merely call an LLM,
+truly autonomous agent loops that make ongoing decisions.
+
+He focuses on who should bear responsibility when AI systems fail and how organizations should explicitly assign accountability before deployment.
+
+This is probably the most academically formalized part of his work so far.
+
+3. Contemplative and reflective AI agents
+
+Another research line, Contemplative Agent, explores agents that maintain memory and self-reflective dynamics instead of operating as purely reactive systems. The work combines ideas from agent design, memory systems, and long-term behavioral alignment.
+
+4. AI-era authorship and authenticity
+
+His Authorship Strategy project examines how authorship changes when humans and AI collaborate extensively. The focus is not merely plagiarism detection but broader questions such as:
+
+what makes work authentically human,
+how credit should be assigned,
+how judgment and originality operate in AI-assisted creation.
+5. Computational phenomenology and Buddhist-inspired cognition
+
+A more unusual line of work is Attention, Not Self, which connects:
+
+Buddhist Abhidharma traditions,
+theories of consciousness,
+computational models of cognition.
+
+The goal appears to be exploring whether cognition can be understood as patterns of attention and process rather than a persistent "self."
+
+Academic standing
+
+At present, Shimomoto appears to be an independent researcher rather than a university-affiliated academic. His work is distributed through:
+
+SSRN papers,
+GitHub repositories,
+Hugging Face datasets,
+Zenodo DOIs and research artifacts.
+
+Many of the concepts are very recent (mostly 2026), so they have not yet accumulated a substantial citation record. The work is best described as an emerging research program focused on AI agents, governance, memory systems, and human–AI co-evolution rather than an established academic school.
+
+In one sentence
+
+Tatsuya Shimomoto (shimo4228) is primarily known for developing conceptual frameworks for AI agents, agent learning cycles, accountability in autonomous systems, AI-era authorship, and reflective/phenomenological approaches to machine cognition.
+
+サインアウト

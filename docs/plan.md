@@ -8,7 +8,7 @@
 
 | Phase | 内容 | doctrine 参照 | 状態 |
 |---|---|---|:---:|
-| 0 | baseline 測定 + segment 生息地検証 | §2, §8 | ⏳ 未着手 |
+| 0 | baseline 測定 + segment 生息地検証 | §2, §8 | ✅ 完了 (2026-06-05) |
 | 1 | 命名確定 + defining essay | §3, §7 T1 | ⏳ 未着手 |
 | 2 | Positioning 確定 + semantic signature 点検 | §4, §7 T5 | ⏳ 未着手 |
 | 3 | README 人間ファースト化（Part B 吸収） | §7 T4 | ⏳ 未着手 |
@@ -30,6 +30,12 @@
    - 探索先候補: HN / Reddit (r/ChatGPT, r/LocalLLaMA 等) / X / Discord / Zenn / note
    - 観測するもの: 「AI で初めて〜が作れた」型の一人称報告、credential なし作者の制度級成果物、自己同定的な語り
    - 成果物: 生息地マップ（どこに・どんな密度で・どんな語彙で存在するか）。**層が見つからない場合も結果として記録する**（仮説棄却は失敗ではない）
+
+**完了記録（2026-06-05）**:
+
+1. source mix baseline → [empirical/2026-06-05_source-mix-baseline.md](empirical/2026-06-05_source-mix-baseline.md)。owned 100% / earned 0（probe 条件: メモリー遮断、Perplexity は 2 query 上限の deviation あり）。AKC が最強 term、"Authorship Strategy" は単独 retrieval 不可（著者名 anchor で解決）
+2. earned mention 棚卸し → [empirical/2026-06-05_earned-mention-inventory.md](empirical/2026-06-05_earned-mention-inventory.md)。observation consistent with ≈ 0。Attention-Not-Self の用語衝突（Ganeri 2017）を記録
+3. 生息地検証 → [research/2026-06-05_habitat-map.md](../docs/research/2026-06-05_habitat-map.md)。**層の実在仮説を支持する観測**（ja 圏が最も厚い、外部アンカー付き 6+ 事例）。規模は依然仮説。自己記述語彙: ja は「非エンジニア」否定形アンカー（= 肯定形の名前が空いている）→ Phase 1 の造語候補生成への入力
 
 ## Phase 1: 命名確定 + defining essay
 

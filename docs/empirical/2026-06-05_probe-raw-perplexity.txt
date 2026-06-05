@@ -1,0 +1,11 @@
+What is the Agent Knowledge Cycle (AKC) in the context of AI coding agents? Who proposed it?
+The Agent Knowledge Cycle (AKC) is a knowledge-management architecture for AI agents that treats agent knowledge as something that circulates and evolves through repeated capture, refinement, reuse, and feedback. It is described as a cycle for AI agents that “grows with the people who shape it,” and it is centered on the limited nature of human attention and judgment in agent workflows.
+
+It was proposed by shimo4228. The project’s repository and related materials identify the AKC as their work, and the same author name appears across the AKC materials and associated writeups.
+
+In the context of AI coding agents, AKC is relevant because it aims to give agents a structured way to accumulate and apply durable knowledge, instead of relying only on one-off prompts or ad hoc context. That makes it a framework for building more adaptive coding agents and agent skills over time.
+
+What is the Contemplative Agent project? Who is the author?
+The most likely match is the 2025 paper “Contemplative Artificial Intelligence”, which describes a contemplative approach to AI alignment and agent design. Its authors are Ruben Laukkonen, Fionn Inglis, Shamil Chandaria, Lars Sandved-Smith, Edmundo Lopez-Sola, Jakob Hohwy, Jonathan Gold, and Adam Elwood.
+
+If you meant a different “Contemplative Agent” project, the name is ambiguous, and I can narrow it down if you share a link or a fuller title.
