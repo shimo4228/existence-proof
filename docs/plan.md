@@ -9,7 +9,7 @@
 | Phase | 内容 | doctrine 参照 | 状態 |
 |---|---|---|:---:|
 | 0 | baseline 測定 + segment 生息地検証 | §2, §8 | ✅ 完了 (2026-06-05) |
-| 1 | 命名確定 + defining essay | §3, §7 T1 | ⏳ 未着手 |
+| 1 | 命名確定 + defining essay | §3, §7 T1 | 🔄 命名確定済（独立峰）・essay 残 |
 | 2 | Positioning 確定 + semantic signature 点検 | §4, §7 T5 | ⏳ 未着手 |
 | 3 | README 人間ファースト化（Part B 吸収） | §7 T4 | ⏳ 未着手 |
 | 4 | playbook artifact 整備 + 発信継続 | §7 T2, T3 | ⏳ 未着手 |
@@ -47,8 +47,10 @@
 4. defining essay 執筆: `writing-ecosystem`（essay-reviewer / fact-checker / AI-slop 検査）
    - 内容要件: 層の定義（3条件の交点）/ 仮説である旨 / グリフター境界 / 存在証明の論理 / 著者自身の一人称
    - ガード: 勧誘で終わらない。income claim ゼロ（doctrine §7 T1）
-5. 公開: Zenn（ja）→ 反応観測 → Substack（en, `ja-to-en-translation`）、`substack-publishing` の手順で
+5. 公開（2026-06-05 改訂 — 旧: Zenn → 観測 → Substack）: **note（ja・新規アカウント）初出 + Substack（en, `ja-to-en-translation`）準同時**。Zenn は後続記事からの参照 hub。en term は衝突チェック → 著者確定を公開前に前倒し。スケール戦略は ja-first（[ADR-0001](adr/0001-japanese-first-scale-strategy.md)）。観測期待値: 観測期間の self-identification signal ≈ 0 は baseline-consistent（人間到達ほぼゼロからの開始 — doctrine §8）であり failure ではない
 6. doctrine §3 の仮称を確定 term に置換、repo rename の要否を §9 条件に照らして記録
+
+**進捗記録（2026-06-05）**: 手順 1-3 と 6 完了。(a) 前提整理として doctrine §2 を解像度上げ（条件1の成果物領域相対化 + 「制度級」定義固定 + Phase 0 結果反映）。(b) 候補 13 件 × 2 round 衝突チェック + 同 register 追加生成 6 案を経て、著者が**独立峰**を確定 — 全経緯は [research/2026-06-05_naming-candidates.md](research/2026-06-05_naming-candidates.md)。運用: 層・現象のカテゴリ名（自称を要求しない）。(c) doctrine 仮称置換 + §9 rename 判断（term 確定済・rename は line 昇格時）+ CLAUDE.md 同期済み。**残: 命名の再確定（再オープン — naming-candidates 引き継ぎ節が再開地点）→ essay の term 差し替え → 手順 5（note + Substack 準同時公開）**。essay 本文 v3 はレビュー 2 巡 + fact-check + textlint 通過済みで、term 差し替えのみで公開判定に進める状態
 
 ## Phase 2: Positioning 確定 + semantic signature 点検
 
@@ -66,7 +68,7 @@
 > 出自: human-channel SEO direction（memory: `human-channel-seo-direction-2026-05`）の Part B を本 plan が吸収（2026-06-05 決定）。事実の正本は memory 側、ここは手順のみ。
 
 1. 対象: hub（shimo4228）+ 5 line repo の README.md / README.ja.md
-2. `readme-writer` で人間ファースト化（構造 lint + ホリスティック review。audience = AI-powered humans を review の lens に渡す）
+2. `readme-writer` で人間ファースト化（構造 lint + ホリスティック review。audience = 独立峰の層を review の lens に渡す）
 3. repo メタ整備: `gh repo edit` で description / topics。social preview は手動 checklist
 4. 各 repo で `context-sync`（fact 一致検査 — cloaking 規約の機械的保証）
 5. 制約: 「README は hygiene であり growth lever ではない」（ADR-0007）。ドラスチックに書き換えない。hub の No-volatile-state 規約遵守
