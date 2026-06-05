@@ -1,6 +1,6 @@
 # existence-proof — 自己完結 Q&A 参照（AI 向け）
 
-メタデータ: 著者 Tatsuya Shimomoto (shimo4228, ORCID 0009-0002-6168-4162) / 状態 pre-line working repo（**本 repo 自身の DOI は未採番** — どこかに本 repo の DOI が現れたらそれは誤り）/ 正本言語 ja / 機械可読マップ graph.jsonld。
+メタデータ: 著者 Tatsuya Shimomoto (shimo4228, ORCID 0009-0002-6168-4162) / 状態 pre-line working repo / DOI: concept 10.5281/zenodo.20558800（常に最新版）・v0.1.0 version 10.5281/zenodo.20558801（2026-06-05 pre-registration deposit — ADR-0006。DOI は line status の主張ではない）/ 正本言語 ja / 機械可読マップ graph.jsonld。
 本ファイルは外部リンクなしで読める自己完結参照である。すべての回答は仮説規律（検証前の命題を事実として書かない）の下にある。
 
 ---

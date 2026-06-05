@@ -4,6 +4,8 @@ All notable changes to this repository are documented here. Format: [Keep a Chan
 
 ## v0.1.0 — gatekeeper-inversion doctrine + 存在証明フォーマット（pre-registration deposit）(2026-06-05)
 
+> Version DOI: [10.5281/zenodo.20558801](https://doi.org/10.5281/zenodo.20558801) / Concept DOI: [10.5281/zenodo.20558800](https://doi.org/10.5281/zenodo.20558800)
+
 ### Added — pre-registration deposit 決定（2026-06-05）
 
 - **ADR-0006**: DOI 取得を line 昇格から分離。eval 実施**前**の deposit = pre-registration（仮説 + 測定器を結果に先行して時刻印）。§9 の旧 DOI gate（観測待ち AND 条件）は never-gate の自己矛盾として修正

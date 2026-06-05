@@ -24,7 +24,7 @@
 2. ~~GitHub 公開の go/no-go~~ → ✅ **公開済み（2026-06-05、著者明示指示）**。MIT LICENSE 追加・README Status 更新・rename は不要（§9 — rename は line 昇格と同時）
 3. **gatekeeping eval 初回実行（baseline）**: [eval/spec.md](eval/spec.md) の手動 protocol（Phase 0 と同じ実施形態 — 著者がブラウザで probe 実行、raw を `docs/empirical/` に保存）。実行前に probes の cite anchor 解決確認
 4. **source-mix 再測定**: Phase 0 と同一手順・同一 probe 構成。公開から十分な観測期間（目安 1-2 ヶ月）を置く
-5. **昇格判断**: §9 の条件に逐条照合（DOI line 化 / skill 化 / rename）。no-go の場合はどの仮説が支持されなかったかを §2 に反映（仮説棄却は失敗ではない）
+5. **昇格判断**: §9 の条件に逐条照合（line 化 = EN primary / hub / sibling、skill 化、rename — DOI は取得済み 2026-06-05、ADR-0006 で分離）。no-go の場合はどの仮説が支持されなかったかを §2 に反映（仮説棄却は失敗ではない）
 
 ### 記録済み（旧・著者入力待ち）
 

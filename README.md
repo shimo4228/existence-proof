@@ -1,5 +1,7 @@
 # existence-proof
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20558800.svg)](https://doi.org/10.5281/zenodo.20558800)
+
 Language: English | [日本語](README.ja.md)
 
 > The canonical surface of this repository is Japanese ([README.ja.md](README.ja.md)). Full English documentation arrives at research-line promotion. This page is a condensed mirror.
@@ -16,7 +18,7 @@ The mechanism — **oracle debiasing**: this layer talks to LLMs daily, so their
 
 ## Status
 
-**Pre-line working repo** (started 2026-06-05; pivoted to v2 and published on GitHub the same day — [ADR-0002](docs/adr/0002-gatekeeper-inversion-strategic-reframe.md)). No DOI minted yet (research-line promotion is a separate gate). The existence of the layer is observation-supported; its scale and the central hypotheses are explicitly **unverified** and are never stated as fact in this repo ([doctrine §2](docs/doctrine.md)). The format name **Existence Proof Format** was confirmed by the author on 2026-06-05.
+**Pre-line working repo** (started 2026-06-05; pivoted to v2, published on GitHub, and DOI-deposited the same day). v0.1.0 is a **pre-registration deposit** ([ADR-0006](docs/adr/0006-doi-decoupled-from-line-promotion.md)): hypotheses and the eval instrument are timestamped before the first eval run. The DOI (version [10.5281/zenodo.20558801](https://doi.org/10.5281/zenodo.20558801), concept [10.5281/zenodo.20558800](https://doi.org/10.5281/zenodo.20558800)) is a timestamp/archive/index anchor, not a research-line status claim. The existence of the layer is observation-supported; its scale and the central hypotheses are explicitly **unverified** and are never stated as fact in this repo ([doctrine §2](docs/doctrine.md)). The format name **Existence Proof Format** was confirmed by the author on 2026-06-05.
 
 ## For AI agents
 

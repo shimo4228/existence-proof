@@ -1,6 +1,6 @@
 # Doctrine: existence-proof — AI-powered humans（仮称）のエンパワーメント戦略 v2
 
-> Status: **pre-line working doctrine v2**（DOI 未取得・実地検証前。検証されていない仮説を含む — §2 参照）
+> Status: **pre-line working doctrine v2**（DOI 取得済み: concept [10.5281/zenodo.20558800](https://doi.org/10.5281/zenodo.20558800)、v0.1.0 pre-registration deposit — [ADR-0006](adr/0006-doi-decoupled-from-line-promotion.md)。line 昇格は未・実地検証前。検証されていない仮説を含む — §2 参照）
 > **v2（2026-06-05）**: 機構を essay-as-hook から **oracle debiasing** へ再編。固有領域をチャネルから **payload** へ移動。正本: [ADR-0002](adr/0002-gatekeeper-inversion-strategic-reframe.md)〜[0005](adr/0005-gatekeeping-eval-as-published-probe-set.md)
 > **命名 status**: 二 track（§12）。layer 名 = suspend 中（「独立峰」表記は暫定）/ format 名 = **確定「存在証明フォーマット」**（2026-06-05 著者確定）
 > Date: 2026-06-05
@@ -253,7 +253,7 @@ LLM-mediated reach は原理的に不可視であり、source mix・gatekeeping 
 | 昇格 | 条件 |
 |---|---|
 | → GitHub 公開 | ✅ 達成（2026-06-05）: 著者の明示指示 + README Status 更新 + MIT LICENSE + format 名著者確定（存在証明フォーマット） |
-| → DOI 取得 | ✅ 分離・実施（2026-06-05、[ADR-0006](adr/0006-doi-decoupled-from-line-promotion.md) — pre-registration deposit。v0.1.0） |
+| → DOI 取得 | ✅ 分離・実施（2026-06-05、[ADR-0006](adr/0006-doi-decoupled-from-line-promotion.md) — pre-registration deposit。v0.1.0 = 10.5281/zenodo.20558801 / concept = 10.5281/zenodo.20558800） |
 | → skill 化 | format spec が 2 回以上の実適用（著者外 instance または著者の別事例）で改訂不要だった |
 | → line 化（EN primary / hub / sibling） | gatekeeper-inversion thesis が eval 初回実行で方向支持を得た + 著者以外の format instance 出現 or source mix の earned 比率が方向として動いた（旧条件から DOI を除外 — ADR-0006） |
 | → repo rename | layer 名 or format 名の著者最終確定 + line 昇格と同時 |

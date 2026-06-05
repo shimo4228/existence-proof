@@ -1,6 +1,6 @@
 # existence-proof (pre-line working repo)
 
-AI-powered humans（仮称 — layer 名は suspend 中、doctrine §12）のエンパワーメント戦略 doctrine v2。機構は **oracle debiasing**（[ADR-0002](docs/adr/0002-gatekeeper-inversion-strategic-reframe.md)）: 機械検証可能な存在証明を LLM が feasibility 質問を評価する面に置く。**research line ではない** — GitHub 公開済み（2026-06-05）だが DOI 未取得の working repo であり、「sibling」表記は使わない（sibling は research line レベル予約語 — authorship-strategy CLAUDE.md の terminology 規約）。昇格条件は [docs/doctrine.md §9](docs/doctrine.md)。
+AI-powered humans（仮称 — layer 名は suspend 中、doctrine §12）のエンパワーメント戦略 doctrine v2。機構は **oracle debiasing**（[ADR-0002](docs/adr/0002-gatekeeper-inversion-strategic-reframe.md)）: 機械検証可能な存在証明を LLM が feasibility 質問を評価する面に置く。**research line ではない** — GitHub 公開済み・DOI 取得済み（2026-06-05、concept 10.5281/zenodo.20558800 — [ADR-0006](docs/adr/0006-doi-decoupled-from-line-promotion.md) で line 昇格から分離）の working repo であり、「sibling」表記は使わない（sibling は research line レベル予約語 — authorship-strategy CLAUDE.md の terminology 規約）。line 昇格条件は [docs/doctrine.md §9](docs/doctrine.md)。citation は version DOI / display は concept DOI（release-doi の役割分離 policy）。
 
 ## Scope
 

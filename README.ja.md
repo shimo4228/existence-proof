@@ -1,5 +1,7 @@
 # existence-proof
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20558800.svg)](https://doi.org/10.5281/zenodo.20558800)
+
 Language: [English](README.md) | 日本語
 
 学位・所属・資格を持たない人が、AI を経路として、検証できる本物の成果物 — 動いているサービス、消えない登録番号（DOI）付きの研究 — を作り始めている。この repo は、その類の人々のための**エンパワーメント doctrine** である。
@@ -16,7 +18,7 @@ Language: [English](README.md) | 日本語
 
 **Pre-line working repo**（2026-06-05 開始 / 同日 v2 pivot — [ADR-0002](docs/adr/0002-gatekeeper-inversion-strategic-reframe.md)）
 
-- GitHub 公開済み（2026-06-05）・DOI 未取得（research line への昇格条件は [doctrine §9](docs/doctrine.md)）
+- GitHub 公開済み・**DOI 取得済み**（2026-06-05、v0.1.0 pre-registration deposit — [ADR-0006](docs/adr/0006-doi-decoupled-from-line-promotion.md)）。DOI は時刻印・archive・index のアンカーであり line status の主張ではない（research line への昇格条件は [doctrine §9](docs/doctrine.md)）
 - 層の**存在**は観測支持済み・**規模**は仮説。中心仮説（gatekeeper-inversion ほか 3 つ）は検証前 — 本 repo は仮説を事実として書かない（[doctrine §2](docs/doctrine.md)）
 - 命名は二 track: 層の名前 = 保留中 / フォーマット名 = **存在証明フォーマット**（2026-06-05 確定 — [doctrine §12](docs/doctrine.md)）
 
@@ -43,3 +45,17 @@ AI agents 向け: [graph.jsonld](graph.jsonld) → [llms.txt](llms.txt) → [llm
 ## これは何ではないか
 
 勧誘ではない（「あなたもなれる」とは書かない — 書けるのは「できた人が実在する」まで）。community でも movement でもない（registry・会員・集約は仕様レベルで不在）。「AI で稼ぐ」話ではない（語りの中心は制作物であって金銭ではない）。
+
+## How to cite
+
+```bibtex
+@software{shimomoto_existence_proof_2026,
+  author  = {Shimomoto, Tatsuya},
+  title   = {existence-proof: An Empowerment Doctrine for Credential-less
+             AI-enabled Creators},
+  year    = {2026},
+  version = {0.1.0},
+  doi     = {10.5281/zenodo.20558801},
+  url     = {https://doi.org/10.5281/zenodo.20558801}
+}
+```

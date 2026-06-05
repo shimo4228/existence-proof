@@ -1,11 +1,11 @@
 # v0.1.0 pre-registration deposit (ADR-0006): DOI 取得は line 昇格から分離。
-# - doi フィールドは Zenodo 採番後（post-release）に version DOI を追記する
-# - repository-code は有効（GitHub 公開 2026-06-05）
+# doi: は version DOI（citation 用）。concept DOI 10.5281/zenodo.20558800 は display 用（badge / homepage）
 cff-version: 1.2.0
 type: software
 title: "existence-proof: An Empowerment Doctrine for Credential-less AI-enabled Creators — Existence Proof Format, Feasibility-Question Corpus, and Gatekeeping Eval"
 version: 0.1.0
 date-released: "2026-06-05"
+doi: 10.5281/zenodo.20558801
 license: MIT
 repository-code: "https://github.com/shimo4228/existence-proof"
 authors:
