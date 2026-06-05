@@ -1,6 +1,6 @@
 # ADR-0003: 存在証明の document format 化（registry なし・Nygard モデル）
 
-> **Summary.** 存在証明を document format — 存在証明フォーマット（Existence Proof Format / EPF。名称は暫定 — [format-name-check](../research/2026-06-05_format-name-check.md)）— として定義する。spec + template + 著者自身の instance #0 の三点 set。**中央 registry・instance 集約・community を持たない。** 伝播は LLM の format-suggestion による self-service のみ（仮説的機構）。
+> **Summary.** 存在証明を document format — 存在証明フォーマット（Existence Proof Format / EPF。決定時は暫定名、2026-06-05 同日に著者確定 — Follow-ups と [format-name-check](../research/2026-06-05_format-name-check.md) 参照）— として定義する。spec + template + 著者自身の instance #0 の三点 set。**中央 registry・instance 集約・community を持たない。** 伝播は LLM の format-suggestion による self-service のみ（仮説的機構）。
 
 ## Status
 
@@ -58,7 +58,7 @@ format を skill として実装する案。doctrine §9「判断軸が実適用
 
 ### Neutral / Follow-ups
 
-- format 名の著者最終確定が pending（buildout 完了時に候補表を提示）
+- format 名の著者最終確定が pending（buildout 完了時に候補表を提示）→ **解決（2026-06-05 同日追記）**: GitHub 公開判断と同時に著者が「存在証明フォーマット」を確定。swap-ready 規律は解除（[format-name-check 確定記録](../research/2026-06-05_format-name-check.md)）
 - 著者以外の instance が出現した場合、それは §8 secondary signal の最強形であり、§9 昇格条件の入力になる
 
 ## Lineage

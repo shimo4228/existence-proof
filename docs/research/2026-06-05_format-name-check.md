@@ -65,3 +65,7 @@ blockchain 公証サービス（proofofexistence.com / poex.io / bloxberg、2013
 ## 判定
 
 **暫定名「存在証明フォーマット（Existence Proof Format）」で建造続行** — binding の①を通過、②③④も format 名版で通過。全 artifact に swap-ready 規律（初出フル名 + 暫定 note、以降 EPF）を敷く。**著者の最終確定は buildout 完了時の候補表提示で行う**（命名は authorial act — doctrine §3）。
+
+## 確定記録（2026-06-05 — 同日追記）
+
+buildout 完了後、GitHub 公開判断と同時に**著者が「存在証明フォーマット」を確定**（authorial act。候補表提示 → 推奨案を選択）。swap-ready 規律は解除し、全 artifact の「暫定」表記を確定に更新済み。運用規約（初出フル名 / bare 略語 EPF を primary token にしない）は継続。

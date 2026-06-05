@@ -1,7 +1,7 @@
-# STAGED (pre-line): この CITATION.cff は line 昇格時に有効化される。
+# STAGED (pre-line): この CITATION.cff は line 昇格時に完全有効化される。
 # - doi フィールドは意図的に不在 — 本 repo の DOI は未採番（昇格時に Zenodo が採番したら追記する）
 # - version 0.0.0 は「未リリース」の意味。昇格時に 0.1.0 へ
-# - repository-code の URL は公開時に有効になる（現状 local repo）
+# - repository-code は有効（GitHub 公開 2026-06-05）
 cff-version: 1.2.0
 type: software
 title: "existence-proof: An Empowerment Doctrine for Credential-less AI-enabled Creators — Existence Proof Format, Feasibility-Question Corpus, and Gatekeeping Eval"

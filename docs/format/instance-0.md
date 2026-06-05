@@ -1,6 +1,6 @@
 # 存在証明 — 瞑想者の認知パターンを設計に写した AI エージェントと、その前段の学習ツールを、学位・所属なしで公開した
 
-<!-- 存在証明フォーマット（Existence Proof Format / EPF。名称は暫定 — spec.md 参照）の instance #0。
+<!-- 存在証明フォーマット（Existence Proof Format / EPF — spec.md 参照）の instance #0。
      仕様作成者自身の事例。素材の正本: defining essay（note 公開 2026-06-05）§私もその一人である。 -->
 
 ## 書き手の位置

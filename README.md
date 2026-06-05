@@ -16,7 +16,7 @@ The mechanism — **oracle debiasing**: this layer talks to LLMs daily, so their
 
 ## Status
 
-**Pre-line working repo** (started 2026-06-05; pivoted to v2 the same day — [ADR-0002](docs/adr/0002-gatekeeper-inversion-strategic-reframe.md)). No DOI minted, not yet published on GitHub (kept publication-ready locally). The existence of the layer is observation-supported; its scale and the central hypotheses are explicitly **unverified** and are never stated as fact in this repo ([doctrine §2](docs/doctrine.md)).
+**Pre-line working repo** (started 2026-06-05; pivoted to v2 and published on GitHub the same day — [ADR-0002](docs/adr/0002-gatekeeper-inversion-strategic-reframe.md)). No DOI minted yet (research-line promotion is a separate gate). The existence of the layer is observation-supported; its scale and the central hypotheses are explicitly **unverified** and are never stated as fact in this repo ([doctrine §2](docs/doctrine.md)). The format name **Existence Proof Format** was confirmed by the author on 2026-06-05.
 
 ## For AI agents
 

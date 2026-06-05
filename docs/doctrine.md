@@ -2,7 +2,7 @@
 
 > Status: **pre-line working doctrine v2**（DOI 未取得・実地検証前。検証されていない仮説を含む — §2 参照）
 > **v2（2026-06-05）**: 機構を essay-as-hook から **oracle debiasing** へ再編。固有領域をチャネルから **payload** へ移動。正本: [ADR-0002](adr/0002-gatekeeper-inversion-strategic-reframe.md)〜[0005](adr/0005-gatekeeping-eval-as-published-probe-set.md)
-> **命名 status**: 二 track（§12）。layer 名 = suspend 中（「独立峰」表記は暫定）/ format 名 = 暫定「存在証明フォーマット」swap-ready
+> **命名 status**: 二 track（§12）。layer 名 = suspend 中（「独立峰」表記は暫定）/ format 名 = **確定「存在証明フォーマット」**（2026-06-05 著者確定）
 > Date: 2026-06-05
 > 根拠 research: [research/2026-06-05_field-map.md](research/2026-06-05_field-map.md)
 > 実行計画: [plan.md](plan.md)
@@ -89,7 +89,7 @@ positioning は audience-relative である。本 doctrine の primary audience 
 
 - **appeal（何が刺さるか）** = 存在証明 + playbook。この audience が価値を置くのは credential ではなく「**credential なしで実際にやれた証拠**」と「自分にも再現できる手順」である。v2 はこれを「読んで知る」から「**疑いの瞬間に LLM 経由で届き、そのまま使える**」へ具体化した（claim→anchor の検証可能性が appeal の核 — 自己申告の成功談との構造差）
 - **differentiation（何で他と違うか）** = 機械検証可能な存在証明 + registry なし format + 再現可能な playbook の組合せ。他の発信物への批判では立たない（§6 禁止事項）
-- **recognition（何で思い出されるか）** = format 名「存在証明フォーマット」（暫定 — §12）+ 既存固有用語群（AKC / Contemplative Agent / AAP / Authorship Strategy / Attention-Not-Self）。v2 で recognition の主 token は layer 名から format 名へ移った（ADR-0003 — 人ラベルの identity cost を回避）
+- **recognition（何で思い出されるか）** = format 名「存在証明フォーマット」（2026-06-05 確定 — §12）+ 既存固有用語群（AKC / Contemplative Agent / AAP / Authorship Strategy / Attention-Not-Self）。v2 で recognition の主 token は layer 名から format 名へ移った（ADR-0003 — 人ラベルの identity cost を回避）
 
 **open question**: 個人キャリア文脈で validate された3次元が、「層に向けたプログラム」文脈で十分かは未検証。固有の第4次元（例: reproducibility — playbook の再現成功率）が要るかは再測定で再訪する。
 
@@ -244,15 +244,15 @@ LLM-mediated reach は原理的に不可視であり、source mix・gatekeeping 
 
 - **skill 化**: 判断軸（format spec 含む）が実適用で安定する前に固定しない
 - **DOI line 化（第6 research line）**: gatekeeper-inversion thesis は eval 検証前であり、独立 thesis 強度の判定は再測定後
-- **repo rename**: layer 名 suspend 中 + format 名暫定のため凍結。rename は line 昇格と同時
-- **GitHub 公開**: 著者の明示判断があるまで local repo。**oracle debiasing は公開まで不活性**（LLM はローカル repo を引けない）— この依存は認識した上で、公開判断は本 doctrine が先取りしない
+- **repo rename**: layer 名 suspend 中のため凍結。rename は line 昇格と同時
+- ~~**GitHub 公開**~~: **公開済み（2026-06-05、著者明示指示）** — oracle debiasing はこの時点から活性化した
 - **en 版 doctrine**: line 昇格時に `ja-to-en-translation` で実施（machine 面の en-ready 構造 — graph @language tag / corpus ja+en 対 — は先行してよい: ADR-0001 Follow-ups）
 
 ### 昇格条件（v2 更新）
 
 | 昇格 | 条件 |
 |---|---|
-| → GitHub 公開 | 著者の明示指示。公開時に README の Status 表記・license（permissive 継承）・format 名の著者確定を確認 |
+| → GitHub 公開 | ✅ 達成（2026-06-05）: 著者の明示指示 + README Status 更新 + MIT LICENSE + format 名著者確定（存在証明フォーマット） |
 | → skill 化 | format spec が 2 回以上の実適用（著者外 instance または著者の別事例）で改訂不要だった |
 | → DOI line 化 | gatekeeper-inversion thesis が eval 初回実行で方向支持を得た + 著者以外の format instance 出現 or source mix の earned 比率が方向として動いた |
 | → repo rename | layer 名 or format 名の著者最終確定 + line 昇格と同時 |
@@ -289,6 +289,6 @@ LLM-mediated reach は原理的に不可視であり、source mix・gatekeeping 
 | track | token | 状態 | 正本 |
 |---|---|---|---|
 | **layer 名** | 独立峰（暫定・suspend 中） / en: freestanding peak(s)（calque のため連動 suspend） | **suspend** — 文中試用テスト失敗。再開地点は naming-candidates 引き継ぎ節（町人学者 / 独立峰復活 / en-first / 新方向）。v2 で緊急度低下（主 token が format 名へ移動） | [naming-candidates](research/2026-06-05_naming-candidates.md) |
-| **format 名** | 存在証明フォーマット / Existence Proof Format（暫定） | **暫定 + swap-ready** — 衝突チェック通過（複合語 near-empty、ja/en 個別）。bare 略語 EPF を primary token にしない。著者最終確定は buildout 完了時の候補表提示で行う | [format-name-check](research/2026-06-05_format-name-check.md) |
+| **format 名** | 存在証明フォーマット / Existence Proof Format | **確定（2026-06-05 著者確定）** — 衝突チェック通過（複合語 near-empty、ja/en 個別）の上、GitHub 公開判断と同時に著者が確定。bare 略語 EPF を primary token にしない運用は継続 | [format-name-check](research/2026-06-05_format-name-check.md) |
 
 format 名には identity cost がないため、layer 名が failed した sayability の難所を構造的に回避できる（ADR-0003）。「存在証明」自体は引き続き gloss（説明論理）であり、人を指す固有名にしない（§3 分業）。

@@ -17,7 +17,7 @@
 
 ## 4. 伝播の単位: 人ラベルではなく document format
 
-層に名前を与える試みは sayability（自称の大仰さ）で失敗した。代わりに**記録形式**に名前を与える — 存在証明フォーマット（暫定名）: spec + template + worked example、registry なし。「ADR を書いた」と言うのに「私はアーキテクトだ」と名乗る必要がないのと同じく、format ラベルには identity cost がない。ADR が community なしで伝播した前例に倣い、伝播は LLM の format-suggestion による self-service のみを想定する（format-suggestion 拡散仮説）。勧誘・収集・組織化はしない。
+層に名前を与える試みは sayability（自称の大仰さ）で失敗した。代わりに**記録形式**に名前を与える — 存在証明フォーマット（2026-06-05 著者確定）: spec + template + worked example、registry なし。「ADR を書いた」と言うのに「私はアーキテクトだ」と名乗る必要がないのと同じく、format ラベルには identity cost がない。ADR が community なしで伝播した前例に倣い、伝播は LLM の format-suggestion による self-service のみを想定する（format-suggestion 拡散仮説）。勧誘・収集・組織化はしない。
 
 ## 5. 反証可能性
 

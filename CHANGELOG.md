@@ -4,11 +4,18 @@ All notable changes to this repository are documented here. Format: [Keep a Chan
 
 ## [Unreleased]
 
+### Added — 公開（2026-06-05）
+
+- **GitHub 公開**（著者明示指示 — doctrine §9 公開条件達成）。oracle debiasing がこの時点から活性化
+- **format 名の著者確定**: 「存在証明フォーマット / Existence Proof Format」（swap-ready 規律を解除、運用規約は継続）
+- MIT LICENSE / .gitignore 追加
+- note 公開 URL を記録（https://note.com/shimo4228/n/nd6626c834ea5）+ zenn-content `note/` フォルダに LLM corpus 向けミラー配置
+
 ### Added — gatekeeper-inversion pivot 小宇宙 buildout（2026-06-05）
 
 - **ADR-0002〜0005**: pivot の親決定（oracle debiasing / payload-channel 分離）+ 3 tactic（document format 化 / 証明構造 + corpus / gatekeeping eval）
 - **doctrine v2**: §1 機構再編 / §2 pivot 3 仮説の明示 / §3 origin-claim scope + format 名チェック読み替え / §5 payload-channel 分離 + ADR-0007 整合強化 / §6 format movement 化禁止 + promise narrative 禁止 / §7 新 T1-T4 + bright line / §8 gatekeeping 観測 + eval-not-KPI / §9 昇格条件更新 / §11 H 追加 / §12 命名二 track
-- **存在証明フォーマット**（暫定名）: spec / template / instance #0（全アンカー解決確認済み）
+- **存在証明フォーマット**: spec / template / instance #0（全アンカー解決確認済み）
 - **corpus**: feasibility 質問（observed 7 + generated 9、ja+en 対）/ 正準回答 FAQ 7 問 / 証明構造 spec
 - **playbook**: format フィールド対応の再現手順（DOI 取得 / live deploy / 納品痕跡 / 帰属整理）
 - **gatekeeping eval**: probe set 9 本 v0.1 / 採点 4 次元 rubric / Phase 0 同型 protocol（初回実行は未実施）

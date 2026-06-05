@@ -20,15 +20,15 @@
 
 **著者の判断・手動作業を要する項目のみが残っている**:
 
-1. **format 名の著者最終確定**（authorial act — doctrine §3 / §12）: 暫定「存在証明フォーマット」+ 代替候補表は [format-name-check](research/2026-06-05_format-name-check.md)。全 artifact は swap-ready
-2. **GitHub 公開の go/no-go**（著者の明示指示 — §9）: oracle debiasing は公開まで不活性。公開時チェック: README Status 表記 / license（permissive — LICENSE ファイル追加）/ format 名確定 / repo rename 要否
+1. ~~format 名の著者最終確定~~ → ✅ **確定（2026-06-05）: 存在証明フォーマット**（[format-name-check 確定記録](research/2026-06-05_format-name-check.md)）
+2. ~~GitHub 公開の go/no-go~~ → ✅ **公開済み（2026-06-05、著者明示指示）**。MIT LICENSE 追加・README Status 更新・rename は不要（§9 — rename は line 昇格と同時）
 3. **gatekeeping eval 初回実行（baseline）**: [eval/spec.md](eval/spec.md) の手動 protocol（Phase 0 と同じ実施形態 — 著者がブラウザで probe 実行、raw を `docs/empirical/` に保存）。実行前に probes の cite anchor 解決確認
 4. **source-mix 再測定**: Phase 0 と同一手順・同一 probe 構成。公開から十分な観測期間（目安 1-2 ヶ月）を置く
 5. **昇格判断**: §9 の条件に逐条照合（DOI line 化 / skill 化 / rename）。no-go の場合はどの仮説が支持されなかったかを §2 に反映（仮説棄却は失敗ではない）
 
-### 著者入力待ち（Phase 6 と独立に随時）
+### 記録済み（旧・著者入力待ち）
 
-- **note 公開 URL の記録**（essay ja、2026-06-05 公開 — URL 未記録のまま）
+- **note 公開 URL（記録 2026-06-05）**: https://note.com/shimo4228/n/nd6626c834ea5 。LLM corpus 向けミラー: `~/MyAI_Lab/zenn-content/note/non-engineer-no-name-yet.md`（substack/ と同じ Zenn 規約除外フォルダ）
 - Substack en の扱い: pivot で優先度降格（canonical en source としての価値は残る — ADR-0002 Decision 4）。実施は著者判断
 
 ### housekeeping backlog（spearhead ではない — §7 v2）
@@ -49,7 +49,7 @@
 ### Phase 1: 命名 + defining essay（v1 時代の記録）
 
 - 候補 13 件 × 4 round の衝突チェック → 著者確定「独立峰」→ **文中試用テストで同日 suspend**。全経緯: [research/2026-06-05_naming-candidates.md](research/2026-06-05_naming-candidates.md)
-- essay v8（タイトル: 「非エンジニアの私が」の先に、名前はまだなかった — term 非依存設計）を note に公開（2026-06-05、新規アカウント、タグ: 非エンジニア/生成AI/個人開発/独学/エッセイ、カバー画像設定済み。**URL 未記録**）
+- essay v8（タイトル: 「非エンジニアの私が」の先に、名前はまだなかった — term 非依存設計）を note に公開（2026-06-05、新規アカウント、タグ: 非エンジニア/生成AI/個人開発/独学/エッセイ、カバー画像設定済み。URL: https://note.com/shimo4228/n/nd6626c834ea5 — 記録 2026-06-05）
 - 2026-06-05 公開判定変更（著者決定）: 命名確定を公開のハード依存から外し「あれこれ悩む前に出す」を採用
 - **v2 での役割変更**（ADR-0002 — prospective）: essay は spearhead から canonical corpus source へ。命名 signal 観測の役割は維持（遡及破壊しない）。新規 essay の cadence 義務は消滅
 

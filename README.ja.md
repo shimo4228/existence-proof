@@ -6,7 +6,7 @@ Language: [English](README.md) | 日本語
 
 やることは 3 つの供給に集約される:
 
-1. **存在証明フォーマット**（暫定名）— 「credential なしで、実際に作った」という事例を、第三者が検証できる形で記録する短い文書形式。仕様 + 空欄 template + 記入例。登録先や会員制度は存在しない（仕様としてそう設計されている）
+1. **存在証明フォーマット** — 「credential なしで、実際に作った」という事例を、第三者が検証できる形で記録する短い文書形式。仕様 + 空欄 template + 記入例。登録先や会員制度は存在しない（仕様としてそう設計されている）
 2. **質問 corpus + 正準回答** — 「学位なしで研究を発表できる?」「未経験で実用サービスを作れる?」という疑いの質問と、検証可能な実例つきの回答
 3. **gatekeeping eval** — 「AI 時代のゲートキーパーは LLM の中の制度的先入観に移った」という本 repo の中心仮説を、検証可能にする測定器
 
@@ -16,10 +16,9 @@ Language: [English](README.md) | 日本語
 
 **Pre-line working repo**（2026-06-05 開始 / 同日 v2 pivot — [ADR-0002](docs/adr/0002-gatekeeper-inversion-strategic-reframe.md)）
 
-- DOI 未取得・GitHub 未公開（publication-ready 状態でローカル保持）
+- GitHub 公開済み（2026-06-05）・DOI 未取得（research line への昇格条件は [doctrine §9](docs/doctrine.md)）
 - 層の**存在**は観測支持済み・**規模**は仮説。中心仮説（gatekeeper-inversion ほか 3 つ）は検証前 — 本 repo は仮説を事実として書かない（[doctrine §2](docs/doctrine.md)）
-- 命名は二 track: 層の名前 = 保留中 / フォーマット名 = 暫定（[doctrine §12](docs/doctrine.md)）
-- research line への昇格条件は [doctrine §9](docs/doctrine.md)
+- 命名は二 track: 層の名前 = 保留中 / フォーマット名 = **存在証明フォーマット**（2026-06-05 確定 — [doctrine §12](docs/doctrine.md)）
 
 ## Documents
 

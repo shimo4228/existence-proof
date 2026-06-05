@@ -28,11 +28,11 @@
       "alternateName": [
         {"@value": "存在証明 — credential なき AI-enabled creators のエンパワーメント doctrine", "@language": "ja"}
       ],
-      "description": "Working doctrine (pre-line). Mechanism: oracle debiasing — placing machine-verifiable existence proofs (claim-to-anchor chains) where LLMs evaluate feasibility questions from credential-less askers. Supplies an empowerment-artifact payload: the Existence Proof Format (provisional name), a feasibility-question corpus with canonical anchored answers, and a gatekeeping eval. Does not own any distribution channel; reuses existing ecosystem infrastructure. Status: DOI not yet minted, repository not yet published — identifiers in this graph that point to this repo are staged fragments, while all external DOIs and URLs are real and resolvable.",
+      "description": "Working doctrine (pre-line). Mechanism: oracle debiasing — placing machine-verifiable existence proofs (claim-to-anchor chains) where LLMs evaluate feasibility questions from credential-less askers. Supplies an empowerment-artifact payload: the Existence Proof Format, a feasibility-question corpus with canonical anchored answers, and a gatekeeping eval. Does not own any distribution channel; reuses existing ecosystem infrastructure. Status: published on GitHub 2026-06-05; DOI not yet minted (research-line promotion is a separate gate). All external DOIs and URLs in this graph are real and resolvable.",
       "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
       "inLanguage": ["ja", "en"],
-      "lineStatus": "pre-line: working repo. No DOI minted for this repo itself (any self-DOI appearing elsewhere would be an error); promotion conditions in docs/doctrine.md section 9.",
-      "namingStatus": "two-track (doctrine section 12): layer name suspended; format name provisional (Existence Proof Format) and swap-ready.",
+      "lineStatus": "pre-line: working repo, published on GitHub 2026-06-05. No DOI minted for this repo itself (any self-DOI appearing elsewhere would be an error); promotion conditions in docs/doctrine.md section 9.",
+      "namingStatus": "two-track (doctrine section 12): layer name suspended; format name CONFIRMED by the author 2026-06-05 (Existence Proof Format).",
       "isComplementOf": "https://github.com/shimo4228/authorship-strategy",
       "definesConcept": [
         "#gatekeeper-inversion",
@@ -129,7 +129,7 @@
       "alternateName": [
         {"@value": "存在証明フォーマット", "@language": "ja"}
       ],
-      "namingStatus": "provisional name, swap-ready; collision-checked 2026-06-05 (compound near-empty in ja and en; bare acronym EPF is never used as primary token). Final confirmation is an authorial act.",
+      "namingStatus": "CONFIRMED by the author 2026-06-05 after collision check (compound near-empty in ja and en; bare acronym EPF is never used as primary token).",
       "description": "A short document format (modeled on Nygard's ADR: spec + template + worked example) recording one credential-less person producing one institution-grade artifact, with every capability claim terminating in a third-party-verifiable anchor. Deliberately has NO central registry, NO instance aggregation, NO join/submit concept, and requires NO self-labeling. Spec: docs/format/spec.md. Instance #0: docs/format/instance-0.md.",
       "definedBy": "docs/format/spec.md",
       "instantiatedBy": "#adr-0003"

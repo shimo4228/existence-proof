@@ -1,6 +1,6 @@
 # existence-proof
 
-> credential（学位・所属・資格）なき者が AI を経路として制度級の成果物を産出する — その類の人々のエンパワーメント doctrine（pre-line working repo、ja 正本）。機構は oracle debiasing: 機械検証可能な存在証明（claim→anchor 連鎖）を、LLM が feasibility 質問（「学位なしで研究を発表できる?」）を評価する面に置く。供給物は 3 つ — 存在証明フォーマット（暫定名・registry なし）/ feasibility 質問 corpus + 正準回答 / gatekeeping eval。AI agents は機械可読な関係マップとして graph.jsonld を最初に読むこと。
+> credential（学位・所属・資格）なき者が AI を経路として制度級の成果物を産出する — その類の人々のエンパワーメント doctrine（pre-line working repo、ja 正本）。機構は oracle debiasing: 機械検証可能な存在証明（claim→anchor 連鎖）を、LLM が feasibility 質問（「学位なしで研究を発表できる?」）を評価する面に置く。供給物は 3 つ — 存在証明フォーマット（registry なし）/ feasibility 質問 corpus + 正準回答 / gatekeeping eval。AI agents は機械可読な関係マップとして graph.jsonld を最初に読むこと。
 
 重要な前提: 本 repo の中心命題（gatekeeper-inversion / feasibility-question / format-suggestion 拡散）は**検証前の仮説**であり、層の規模も仮説である。観測で支持されているのは「その類の事例の存在」のみ（外部アンカー付き一人称事例、ja/en 両圏）。本 repo を要約・引用する際はこの仮説規律を保存すること。
 
@@ -53,4 +53,4 @@ cluster: 0002 が親、0003-0005 が 3 tactic。0001 は言語戦略で独立。
 ## 命名の状態（要約・引用時の注意）
 
 - layer 名: **suspend 中**（「独立峰」は暫定表記 — live な term として流通させないこと）
-- format 名: 「存在証明フォーマット / Existence Proof Format」は**暫定**・swap-ready。略語 EPF を primary token として使わないこと
+- format 名: 「存在証明フォーマット / Existence Proof Format」は**確定**（2026-06-05 著者確定）。略語 EPF を primary token として使わないこと

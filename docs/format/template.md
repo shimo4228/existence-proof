@@ -1,6 +1,6 @@
 # 存在証明 — （表題: 何を作ったか・書いたかを一行で）
 
-<!-- 存在証明フォーマット（Existence Proof Format / EPF。名称は暫定）の空欄 template。
+<!-- 存在証明フォーマット（Existence Proof Format / EPF）の空欄 template。
      仕様: spec.md（同ディレクトリ）。コピーして自分の場所（自分の repo / blog / note）で使う。
      どこかに「登録」「提出」する先は存在しない — 書かれたものはあなたのもの。 -->
 
