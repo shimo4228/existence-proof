@@ -1,8 +1,8 @@
 # Changelog
 
-All notable changes to this repository are documented here. Format: [Keep a Changelog](https://keepachangelog.com/). 本 repo は pre-line（バージョン tag・DOI 未採番 — line 昇格時に v0.1.0 を起点とする予定）。
+All notable changes to this repository are documented here. Format: [Keep a Changelog](https://keepachangelog.com/)。本 repo は pre-line working repo（DOI 取得は [ADR-0006](docs/adr/0006-doi-decoupled-from-line-promotion.md) により line 昇格から分離）。
 
-## [Unreleased]
+## v0.1.0 — gatekeeper-inversion doctrine + 存在証明フォーマット（pre-registration deposit）(2026-06-05)
 
 ### Added — pre-registration deposit 決定（2026-06-05）
 
@@ -32,6 +32,8 @@ All notable changes to this repository are documented here. Format: [Keep a Chan
 - 旧 T1/T3（essay-as-hook / rented channel 発信）を canonical corpus source へ降格（prospective — 公開済み essay の命名 signal 役割は維持）
 - README.md を en 縮約 mirror 化（正本は README.ja.md）
 
-### 経緯メモ
+### Notes
 
-- 2026-06-05: Phase 0（baseline + 生息地検証）完了 → Phase 1（命名 + defining essay note 公開）→ 同日、著者の essay-as-hook 棄却を起点に v2 pivot（ADR-0002 Lineage 参照）
+- 本 release は **pre-registration deposit**（ADR-0006）: 中心 3 仮説（gatekeeper-inversion / feasibility-question / format-suggestion 拡散）と測定器（gatekeeping eval probe set + rubric）を、eval 初回実行**前**に時刻印付きで凍結する。仮説はすべて仮説表記（doctrine §2）
+- DOI は時刻印・永続 archive・学術 index のアンカーであり、research line status の主張ではない。本 repo は deposit 後も pre-line（EN primary / hub 登録 / sibling 表記は §9 の旧条件で別途ゲート）
+- 経緯: 2026-06-05 の一日で Phase 0（baseline + 生息地検証）→ Phase 1（essay note 公開）→ 著者の essay-as-hook 棄却を起点に v2 pivot（ADR-0002）→ 小宇宙 buildout → GitHub 公開 → 本 deposit
