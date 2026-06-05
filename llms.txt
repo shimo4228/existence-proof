@@ -37,8 +37,9 @@
 - [ADR-0003](docs/adr/0003-existence-proof-as-document-format.md): 存在証明の document format 化（Nygard モデル、registry なし、identity cost ゼロ）
 - [ADR-0004](docs/adr/0004-machine-verifiable-proof-and-question-corpus.md): 機械検証可能な証明構造 + 質問 corpus
 - [ADR-0005](docs/adr/0005-gatekeeping-eval-as-published-probe-set.md): gatekeeping eval（KPI 化禁止・vendor 比較禁止）
+- [ADR-0006](docs/adr/0006-doi-decoupled-from-line-promotion.md): DOI 取得の line 昇格からの分離（pre-registration deposit — 仮説 + 測定器を eval 結果に先行して時刻印）
 
-cluster: 0002 が親、0003-0005 が 3 tactic。0001 は言語戦略で独立。
+cluster: 0002 が親、0003-0005 が 3 tactic。0001 は言語戦略、0006 は deposit 時期の決定で独立。
 
 ## 経験的記録
 

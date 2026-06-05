@@ -233,6 +233,14 @@
       "description": "Four-dimension rubric, manual protocol mirroring the Phase 0 source-mix baseline, instrument-not-indictment framing, output never a KPI."
     },
     {
+      "@id": "#adr-0006",
+      "@type": "ADR",
+      "identifier": "ADR-0006",
+      "name": "DOI decoupled from line promotion (pre-registration deposit)",
+      "url": "docs/adr/0006-doi-decoupled-from-line-promotion.md",
+      "description": "Deposit the working doctrine as v0.1.0 BEFORE the first eval run — pre-registration: hypotheses and the measurement instrument are timestamped ahead of results, making post-hoc goalpost-moving structurally impossible. The DOI is a timestamp/archive/index anchor, not a research-line status claim; line promotion (EN primary, hub, sibling) remains separately gated."
+    },
+    {
       "@id": "https://doi.org/10.5281/zenodo.19212118",
       "@type": ["ScholarlyArticle", "SoftwareSourceCode"],
       "name": "Contemplative Agent",

@@ -243,7 +243,7 @@ LLM-mediated reach は原理的に不可視であり、source mix・gatekeeping 
 ### 現時点で作らないもの
 
 - **skill 化**: 判断軸（format spec 含む）が実適用で安定する前に固定しない
-- **DOI line 化（第6 research line）**: gatekeeper-inversion thesis は eval 検証前であり、独立 thesis 強度の判定は再測定後
+- **line 化（第6 research line — EN primary / hub 登録 / sibling 表記）**: gatekeeper-inversion thesis は eval 検証前であり、独立 thesis 強度の判定は再測定後。**DOI 取得は line 昇格から分離済み**（[ADR-0006](adr/0006-doi-decoupled-from-line-promotion.md) — pre-registration deposit。DOI は時刻印・archive・index のアンカーであって line status の主張ではない）
 - **repo rename**: layer 名 suspend 中のため凍結。rename は line 昇格と同時
 - ~~**GitHub 公開**~~: **公開済み（2026-06-05、著者明示指示）** — oracle debiasing はこの時点から活性化した
 - **en 版 doctrine**: line 昇格時に `ja-to-en-translation` で実施（machine 面の en-ready 構造 — graph @language tag / corpus ja+en 対 — は先行してよい: ADR-0001 Follow-ups）
@@ -253,8 +253,9 @@ LLM-mediated reach は原理的に不可視であり、source mix・gatekeeping 
 | 昇格 | 条件 |
 |---|---|
 | → GitHub 公開 | ✅ 達成（2026-06-05）: 著者の明示指示 + README Status 更新 + MIT LICENSE + format 名著者確定（存在証明フォーマット） |
+| → DOI 取得 | ✅ 分離・実施（2026-06-05、[ADR-0006](adr/0006-doi-decoupled-from-line-promotion.md) — pre-registration deposit。v0.1.0） |
 | → skill 化 | format spec が 2 回以上の実適用（著者外 instance または著者の別事例）で改訂不要だった |
-| → DOI line 化 | gatekeeper-inversion thesis が eval 初回実行で方向支持を得た + 著者以外の format instance 出現 or source mix の earned 比率が方向として動いた |
+| → line 化（EN primary / hub / sibling） | gatekeeper-inversion thesis が eval 初回実行で方向支持を得た + 著者以外の format instance 出現 or source mix の earned 比率が方向として動いた（旧条件から DOI を除外 — ADR-0006） |
 | → repo rename | layer 名 or format 名の著者最終確定 + line 昇格と同時 |
 
 前例: attention-not-self は essay 群 → research line と育った。format spec + eval が同じ trajectory の起点になりうる。昇格時の手順は `release-doi` / `skill-creator` を再利用し、新規手順を作らない。
