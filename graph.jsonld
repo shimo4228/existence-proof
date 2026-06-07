@@ -32,7 +32,7 @@
       "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
       "inLanguage": ["ja", "en"],
       "identifier": "10.5281/zenodo.20558800",
-      "sameAs": ["https://doi.org/10.5281/zenodo.20558800"],
+      "sameAs": ["https://doi.org/10.5281/zenodo.20558800", "https://www.wikidata.org/wiki/Q140090192"],
       "lineStatus": "pre-line: working repo, published on GitHub and DOI-deposited 2026-06-05 (pre-registration deposit, ADR-0006: concept DOI 10.5281/zenodo.20558800, v0.1.0 version DOI 10.5281/zenodo.20558801). The DOI is a timestamp/archive/index anchor, not a research-line status claim; line-promotion conditions in docs/doctrine.md section 9.",
       "namingStatus": "two-track (doctrine section 12): layer name suspended; format name CONFIRMED by the author 2026-06-05 (Existence Proof Format).",
       "isComplementOf": "https://github.com/shimo4228/authorship-strategy",
@@ -86,9 +86,7 @@
       "name": "Tatsuya Shimomoto",
       "alternateName": "shimo4228",
       "description": "Author. No academic degree, no research-institution affiliation, no professional software-engineering background (statement relative to the artifact domains: research and software). The absence of an affiliation field on this node is intentional and structural — see docs/corpus/proof-structure.md.",
-      "sameAs": [
-        "https://github.com/shimo4228"
-      ]
+      "sameAs": ["https://github.com/shimo4228", "https://www.wikidata.org/wiki/Q140090100"]
     },
     {
       "@id": "#gatekeeper-inversion",
@@ -244,6 +242,7 @@
     },
     {
       "@id": "https://doi.org/10.5281/zenodo.19212118",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090187",
       "@type": ["ScholarlyArticle", "SoftwareSourceCode"],
       "name": "Contemplative Agent",
       "identifier": "10.5281/zenodo.19212118",
@@ -277,6 +276,7 @@
     },
     {
       "@id": "https://github.com/shimo4228/authorship-strategy",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090190",
       "@type": "CreativeWork",
       "name": "Authorship Strategy",
       "identifier": "10.5281/zenodo.20263316",
