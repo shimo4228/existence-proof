@@ -6,6 +6,7 @@
     "Concept": "shimo:Concept",
     "ADR": "shimo:ADR",
     "Tactic": "shimo:Tactic",
+    "ExternalReference": "shimo:ExternalReference",
     "definesConcept": {"@id": "shimo:definesConcept", "@type": "@id"},
     "definedBy": {"@id": "shimo:definedBy", "@type": "@id"},
     "instantiatedBy": {"@id": "shimo:instantiatedBy", "@type": "@id"},
@@ -282,6 +283,76 @@
       "identifier": "10.5281/zenodo.20263316",
       "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
       "description": "Complement of this doctrine: same infrastructure (llms.txt, graph.jsonld, DOI, distinctive terminology), different payload and beneficiary — authorship-strategy diffuses the author's attribution through LLM-mediated channels; existence-proof supplies empowerment artifacts to the credential-less layer. This repo deliberately does NOT use the sibling relation (sibling is reserved for DOI-registered research lines; this repo is pre-line)."
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.12666",
+      "sameAs": "https://www.wikidata.org/wiki/Q140181369",
+      "@type": ["ExternalReference", "ScholarlyArticle"],
+      "name": "Adapting to LLMs: How Insiders and Outsiders Reshape Scientific Knowledge Production",
+      "datePublished": "2025-05-19",
+      "identifier": "arXiv:2505.12666",
+      "url": "https://arxiv.org/abs/2505.12666",
+      "description": "Cited in the naming research (Round 1 adjacent-term differential table) as a neighboring concept the defining essay must distinguish: it divides LLM-era scientific knowledge production into AI developers (insiders) and domain users (outsiders), a distinction that lacks this doctrine's dimensions of social marginalization and first articulation by the credential-less.",
+      "recordedIn": "docs/research/2026-06-05_naming-candidates.md"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.10808",
+      "sameAs": "https://www.wikidata.org/wiki/Q140181373",
+      "@type": ["ExternalReference", "ScholarlyArticle"],
+      "name": "Nurture-First Agent Development: Building Domain-Expert AI Agents",
+      "author": "Zhang",
+      "datePublished": "2026-03-11",
+      "identifier": "arXiv:2603.10808",
+      "url": "https://arxiv.org/abs/2603.10808",
+      "description": "Surfaced by the earned-mention inventory's web probes and verified against PDF body and references as a search-engine false positive: it contains the similar concept 'Knowledge Crystallization Cycle' but never cites or mentions the Agent Knowledge Cycle. Recorded so future stocktakes do not count it as an earned mention, and as a signal that adjacent concepts (agent knowledge-lifecycle management) are independently entering the academic literature.",
+      "recordedIn": "docs/empirical/2026-06-05_earned-mention-inventory.md"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.14805",
+      "sameAs": "https://www.wikidata.org/wiki/Q140181377",
+      "@type": ["ExternalReference", "ScholarlyArticle"],
+      "name": "Knowledge Activation: AI Skills as the Institutional Knowledge Layer",
+      "datePublished": "2026-03-16",
+      "identifier": "arXiv:2603.14805",
+      "url": "https://arxiv.org/abs/2603.14805",
+      "description": "Second verified false positive in the earned-mention inventory: proposes the AKU (knowledge activation) concept but contains no citation of or mention of this research program, confirmed directly against the PDF body and references. Recorded so future stocktakes do not count it as an earned mention; like the Nurture-First paper, it is input material for the adjacent-term differential table.",
+      "recordedIn": "docs/empirical/2026-06-05_earned-mention-inventory.md"
+    },
+    {
+      "@id": "https://doi.org/10.1111/peps.12412",
+      "sameAs": "https://www.wikidata.org/wiki/Q140181380",
+      "@type": ["ExternalReference", "ScholarlyArticle"],
+      "name": "Personal brand equity: Scale development and validation",
+      "author": ["Sergey Gorbatov", "Svetlana N. Khapova", "Janneke K. Oostrom", "Evgenia I. Lysova"],
+      "datePublished": "2020-06-27",
+      "identifier": "10.1111/peps.12412",
+      "url": "https://doi.org/10.1111/peps.12412",
+      "description": "Personnel Psychology study (N=3,273 across seven samples, EFA/CFA) cited in the field map as primary evidence that frameworks validated on individuals exist: it confirms the three-dimensional Personal Brand Equity structure (appeal / differentiation / recognition), showing that Keller's product brand-equity dimensions have been transferred to persons and re-validated on individuals.",
+      "recordedIn": "docs/research/2026-06-05_field-map.md"
+    },
+    {
+      "@id": "https://doi.org/10.14318/hau6.3.017",
+      "sameAs": "https://www.wikidata.org/wiki/Q132141783",
+      "@type": ["ExternalReference", "ScholarlyArticle"],
+      "name": "“I’m not a businessman, I’m a business, man”: Typing the neoliberal self into a branded existence",
+      "author": "Ilana Gershon",
+      "datePublished": "2016-12",
+      "identifier": "10.14318/hau6.3.017",
+      "url": "https://doi.org/10.14318/hau6.3.017",
+      "description": "HAU: Journal of Ethnographic Theory 6(3): 223–246. Cited in the field map as evidence that the tension between personal branding and authenticity is real: personal branding is a semiotic practice of creating the impression of a coherent, authentic self, so strategic construction and authentic expression are structurally in tension — a tension the doctrine treats as an explicit design problem rather than a reason to abandon authenticity-first.",
+      "recordedIn": "docs/research/2026-06-05_field-map.md"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fpsyg.2018.02238",
+      "sameAs": "https://www.wikidata.org/wiki/Q59813575",
+      "@type": ["ExternalReference", "ScholarlyArticle"],
+      "name": "Personal Branding: Interdisciplinary Systematic Review and Research Agenda",
+      "author": ["Sergey Gorbatov", "Svetlana N. Khapova", "Evgenia I. Lysova"],
+      "datePublished": "2018-11-21",
+      "identifier": "10.3389/fpsyg.2018.02238",
+      "url": "https://doi.org/10.3389/fpsyg.2018.02238",
+      "description": "Frontiers in Psychology systematic review of 100+ personal-branding studies, cited in the field map for the finding that individual differentiation works differently from product differentiation — a person stands out by possessing qualities the audience values at a higher level, not by adding novel attributes — and that this is an agentic capability open to anyone, not limited to celebrities or executives.",
+      "recordedIn": "docs/research/2026-06-05_field-map.md"
     }
   ]
 }
