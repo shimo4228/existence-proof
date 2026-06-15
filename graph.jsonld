@@ -19,7 +19,8 @@
     "namingStatus": "shimo:namingStatus",
     "lineStatus": "shimo:lineStatus",
     "mainEntity": {"@id": "https://schema.org/mainEntity", "@type": "@id"},
-    "subjectOf": {"@id": "https://schema.org/subjectOf", "@type": "@id"}
+    "subjectOf": {"@id": "https://schema.org/subjectOf", "@type": "@id"},
+    "isPartOf": {"@id": "https://schema.org/isPartOf", "@type": "@id"}
   },
   "@graph": [
     {
@@ -37,6 +38,7 @@
       "lineStatus": "pre-line: working repo, published on GitHub and DOI-deposited 2026-06-05 (pre-registration deposit, ADR-0006: concept DOI 10.5281/zenodo.20558800, v0.1.0 version DOI 10.5281/zenodo.20558801). The DOI is a timestamp/archive/index anchor, not a research-line status claim; line-promotion conditions in docs/doctrine.md section 9.",
       "namingStatus": "two-track (doctrine section 12): layer name suspended; format name CONFIRMED by the author 2026-06-05 (Existence Proof Format).",
       "isComplementOf": "https://github.com/shimo4228/authorship-strategy",
+      "isPartOf": "https://github.com/shimo4228/shimo4228",
       "definesConcept": [
         "#gatekeeper-inversion",
         "#internalized-institutional-prior",
