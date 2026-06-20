@@ -42,6 +42,8 @@ AI agents 向け: [graph.jsonld](graph.jsonld) → [llms.txt](llms.txt) → [llm
 
 [authorship-strategy](https://github.com/shimo4228/authorship-strategy) の**補完** — 同一インフラ・別 payload・別受益者。あちらは著者の attribution diffusion、こちらは層の empowerment。本 repo はチャネルを所有しない（payload/channel 分離 — [doctrine §5](docs/doctrine.md)）。
 
+本 repo が補完する研究プログラム全体については、エコシステムの hub [`shimo4228/shimo4228`](https://github.com/shimo4228/shimo4228)（5 つの研究ラインの人間向け索引）を参照。
+
 ## これは何ではないか
 
 勧誘ではない（「あなたもなれる」とは書かない — 書けるのは「できた人が実在する」まで）。community でも movement でもない（registry・会員・集約は仕様レベルで不在）。「AI で稼ぐ」話ではない（語りの中心は制作物であって金銭ではない）。

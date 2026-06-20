@@ -27,3 +27,5 @@ Read [graph.jsonld](graph.jsonld) first (machine-readable concept map), then [ll
 ## Relation to authorship-strategy
 
 Complement of [authorship-strategy](https://github.com/shimo4228/authorship-strategy): same infrastructure (llms.txt / graph.jsonld / DOI / distinctive terminology), different payload and beneficiary. This repo owns no channel — only the empowerment-artifact payload ([doctrine §5](docs/doctrine.md)). It is not a sibling research line (pre-line status).
+
+For the broader research program this repository complements, see the ecosystem hub [`shimo4228/shimo4228`](https://github.com/shimo4228/shimo4228) (a human-readable index of the five research lines).
