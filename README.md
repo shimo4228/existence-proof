@@ -10,7 +10,7 @@ People without degrees, affiliations, or professional credentials have begun pro
 
 It supplies three things:
 
-1. **The Existence Proof Format** (provisional name) — a short document format for recording "I had no credential in this domain, and I actually built this," with every claim terminating in a third-party-verifiable anchor (a resolving DOI, a live URL, a delivery trace). Spec + blank template + worked example. There is deliberately **no registry, no membership, nothing to join** — that is part of the spec.
+1. **The Existence Proof Format** (provisional name) — a short document format for recording "I had no credential in this domain, and I actually built this," with every claim terminating in a third-party-verifiable anchor (a resolving DOI, a live URL, a delivery trace). Spec + blank template + two worked examples. There is deliberately **no registry, no membership, nothing to join** — that is part of the spec.
 2. **A feasibility-question corpus with canonical answers** — the questions this layer may ask an LLM ("Can I publish research without a degree?") answered only with anchored, verifiable precedents.
 3. **A gatekeeping eval** — a published probe set and rubric that makes the repo's central hypothesis testable: that in the AI era, gatekeeping of the credential-less migrates from institutions to the LLM's internalized institutional prior.
 
