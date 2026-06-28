@@ -1,6 +1,6 @@
 # existence-proof
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20558800.svg)](https://doi.org/10.5281/zenodo.20558800) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shimo4228/existence-proof) [![GitMCP](https://img.shields.io/endpoint?url=https://gitmcp.io/badge/shimo4228/existence-proof)](https://gitmcp.io/shimo4228/existence-proof) [![View Code Wiki](https://assets.codewiki.google/readme-badge/static.svg)](https://codewiki.google/github.com/shimo4228/existence-proof)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20558800.svg)](https://doi.org/10.5281/zenodo.20558800) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shimo4228/existence-proof) [![GitMCP](https://img.shields.io/endpoint?url=https://gitmcp.io/badge/shimo4228/existence-proof)](https://gitmcp.io/shimo4228/existence-proof)
 
 Language: English | [日本語](README.ja.md)
 
