@@ -1,0 +1,35 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0009-0002-6168-4162",
+      "@type": "Person",
+      "alternateName": "shimo4228",
+      "familyName": "Shimomoto",
+      "givenName": "Tatsuya"
+    }
+  ],
+  "codeRepository": "https://github.com/shimo4228/existence-proof",
+  "datePublished": "2026-06-05",
+  "description": "A working doctrine (pre-line) for empowering people who lack the gating credentials of their artifact domain and who, with AI as the enabling path, produce institution-grade artifacts bearing third-party-verifiable anchors. Mechanism: oracle debiasing — placing machine-verifiable existence proofs (claim-to-anchor chains) at the surfaces where LLMs evaluate feasibility questions from credential-less askers. Supplies an empowerment-artifact payload: the Existence Proof Format (provisional name; a Nygard-ADR-style document format with no registry), a feasibility-question corpus with canonically anchored answers, and a gatekeeping eval (published probe set, four-dimension rubric, manual protocol). Central hypotheses (gatekeeper inversion, feasibility-question behavior, format-suggestion diffusion) are explicitly marked unverified throughout.",
+  "identifier": "https://doi.org/10.5281/zenodo.20558801",
+  "keywords": [
+    "existence proof",
+    "existence proof format",
+    "gatekeeper inversion",
+    "oracle debiasing",
+    "claim-anchor chain",
+    "machine-verifiable proof",
+    "credential-less creators",
+    "independent researcher",
+    "feasibility questions",
+    "gatekeeping eval",
+    "LLM-mediated empowerment",
+    "document format"
+  ],
+  "license": "https://spdx.org/licenses/MIT",
+  "name": "existence-proof: An Empowerment Doctrine for Credential-less AI-enabled Creators — Existence Proof Format, Feasibility-Question Corpus, and Gatekeeping Eval",
+  "url": "https://github.com/shimo4228/existence-proof",
+  "version": "0.1.0"
+}
