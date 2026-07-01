@@ -1,6 +1,7 @@
 # v0.1.0 pre-registration deposit (ADR-0006): DOI 取得は line 昇格から分離。
 # doi: は version DOI（citation 用）。concept DOI 10.5281/zenodo.20558800 は display 用（badge / homepage）
 cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
 type: software
 title: "existence-proof: An Empowerment Doctrine for Credential-less AI-enabled Creators — Existence Proof Format, Feasibility-Question Corpus, and Gatekeeping Eval"
 version: 0.1.0
@@ -44,7 +45,13 @@ references:
     title: "Authorship Strategy"
     doi: "10.5281/zenodo.20263316"
     notes: "Complement: same infrastructure, different payload and beneficiary (attribution diffusion vs. layer empowerment). Not a sibling relation — this repo is pre-line."
+    authors:
+      - family-names: Shimomoto
+        given-names: Tatsuya
   - type: software
     title: "Contemplative Agent"
     doi: "10.5281/zenodo.19212118"
     notes: "Instance #0 anchor: DOI-registered artifact produced by the credential-less author; doubles as the doctrine's worked example."
+    authors:
+      - family-names: Shimomoto
+        given-names: Tatsuya
