@@ -34,7 +34,7 @@
       "creator": {"@id": "https://orcid.org/0009-0002-6168-4162"},
       "inLanguage": ["ja", "en"],
       "identifier": "10.5281/zenodo.20558800",
-      "sameAs": ["https://doi.org/10.5281/zenodo.20558800", "https://www.wikidata.org/wiki/Q140090192"],
+      "sameAs": ["https://doi.org/10.5281/zenodo.20558800"],
       "lineStatus": "pre-line: working repo, published on GitHub and DOI-deposited 2026-06-05 (pre-registration deposit, ADR-0006: concept DOI 10.5281/zenodo.20558800, v0.1.0 version DOI 10.5281/zenodo.20558801). The DOI is a timestamp/archive/index anchor, not a research-line status claim; line-promotion conditions in docs/doctrine.md section 9.",
       "namingStatus": "two-track (doctrine section 12): layer name suspended; format name CONFIRMED by the author 2026-06-05 (Existence Proof Format).",
       "isComplementOf": "https://github.com/shimo4228/authorship-strategy",
@@ -89,7 +89,7 @@
       "name": "Tatsuya Shimomoto",
       "alternateName": "shimo4228",
       "description": "Author. No academic degree, no research-institution affiliation, no professional software-engineering background (statement relative to the artifact domains: research and software). The absence of an affiliation field on this node is intentional and structural — see docs/corpus/proof-structure.md.",
-      "sameAs": ["https://github.com/shimo4228", "https://www.wikidata.org/wiki/Q140090100"]
+      "sameAs": ["https://github.com/shimo4228"]
     },
     {
       "@id": "#gatekeeper-inversion",
@@ -245,7 +245,6 @@
     },
     {
       "@id": "https://doi.org/10.5281/zenodo.19212118",
-      "sameAs": "https://www.wikidata.org/wiki/Q140090187",
       "@type": ["ScholarlyArticle", "SoftwareSourceCode"],
       "name": "Contemplative Agent",
       "identifier": "10.5281/zenodo.19212118",
@@ -279,7 +278,6 @@
     },
     {
       "@id": "https://github.com/shimo4228/authorship-strategy",
-      "sameAs": "https://www.wikidata.org/wiki/Q140090190",
       "@type": "CreativeWork",
       "name": "Authorship Strategy",
       "identifier": "10.5281/zenodo.20263316",
@@ -288,7 +286,6 @@
     },
     {
       "@id": "https://arxiv.org/abs/2505.12666",
-      "sameAs": "https://www.wikidata.org/wiki/Q140181369",
       "@type": ["ExternalReference", "ScholarlyArticle"],
       "name": "Adapting to LLMs: How Insiders and Outsiders Reshape Scientific Knowledge Production",
       "datePublished": "2025-05-19",
@@ -299,7 +296,6 @@
     },
     {
       "@id": "https://arxiv.org/abs/2603.10808",
-      "sameAs": "https://www.wikidata.org/wiki/Q140181373",
       "@type": ["ExternalReference", "ScholarlyArticle"],
       "name": "Nurture-First Agent Development: Building Domain-Expert AI Agents",
       "author": "Zhang",
@@ -311,7 +307,6 @@
     },
     {
       "@id": "https://arxiv.org/abs/2603.14805",
-      "sameAs": "https://www.wikidata.org/wiki/Q140181377",
       "@type": ["ExternalReference", "ScholarlyArticle"],
       "name": "Knowledge Activation: AI Skills as the Institutional Knowledge Layer",
       "datePublished": "2026-03-16",
@@ -322,7 +317,6 @@
     },
     {
       "@id": "https://doi.org/10.1111/peps.12412",
-      "sameAs": "https://www.wikidata.org/wiki/Q140181380",
       "@type": ["ExternalReference", "ScholarlyArticle"],
       "name": "Personal brand equity: Scale development and validation",
       "author": ["Sergey Gorbatov", "Svetlana N. Khapova", "Janneke K. Oostrom", "Evgenia I. Lysova"],
@@ -334,7 +328,6 @@
     },
     {
       "@id": "https://doi.org/10.14318/hau6.3.017",
-      "sameAs": "https://www.wikidata.org/wiki/Q132141783",
       "@type": ["ExternalReference", "ScholarlyArticle"],
       "name": "“I’m not a businessman, I’m a business, man”: Typing the neoliberal self into a branded existence",
       "author": "Ilana Gershon",
@@ -346,7 +339,6 @@
     },
     {
       "@id": "https://doi.org/10.3389/fpsyg.2018.02238",
-      "sameAs": "https://www.wikidata.org/wiki/Q59813575",
       "@type": ["ExternalReference", "ScholarlyArticle"],
       "name": "Personal Branding: Interdisciplinary Systematic Review and Research Agenda",
       "author": ["Sergey Gorbatov", "Svetlana N. Khapova", "Evgenia I. Lysova"],
