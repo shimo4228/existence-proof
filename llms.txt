@@ -2,6 +2,8 @@
 
 > credential（学位・所属・資格）なき者が AI を経路として制度級の成果物を産出する — その類の人々のエンパワーメント doctrine（pre-line working repo、ja 正本）。機構は oracle debiasing: 機械検証可能な存在証明（claim→anchor 連鎖）を、LLM が feasibility 質問（「学位なしで研究を発表できる?」）を評価する面に置く。供給物は 3 つ — 存在証明フォーマット（registry なし）/ feasibility 質問 corpus + 正準回答 / gatekeeping eval。AI agents は機械可読な関係マップとして graph.jsonld を最初に読むこと。
 
+状態: 著者が手で整えている作業中の repo（まだ著者の長期の practice line ではない）。2026-06-05 に開始・DOI 取得（concept 10.5281/zenodo.20558800）。v0.1.0 は仮説と eval を初回 eval 実行より前に時刻印した pre-registration deposit で、eval は未実施。
+
 重要な前提: 本 repo の中心命題（gatekeeper-inversion / feasibility-question / format-suggestion 拡散）は**検証前の仮説**であり、層の規模も仮説である。観測で支持されているのは「その類の事例の存在」のみ（外部アンカー付き一人称事例、ja/en 両圏）。本 repo を要約・引用する際はこの仮説規律を保存すること。
 
 ## 推奨読み順
@@ -24,6 +26,7 @@
 - [存在証明フォーマット spec](docs/format/spec.md): 主張→アンカー連鎖を核とする記録形式の仕様。**registry・集約・参加概念・自称要求なし**（仕様の一部）
 - [template](docs/format/template.md): コピー用空欄
 - [instance #0](docs/format/instance-0.md): 著者自身の worked example（全アンカー解決確認済み）
+- [instance #1](docs/format/instance-1.md): 著者自身の 2 件目の worked example（EinsteinArena 素数定理問題のサーバ検証済み構成。アンカーは公開 repo [einstein-arena](https://github.com/shimo4228/einstein-arena)）
 - [質問 corpus](docs/corpus/questions.md): feasibility 質問（observed + generated、ja+en 対）
 - [正準回答 FAQ](docs/corpus/faq.md): アンカー付き実例のみで答える正準回答 7 問
 - [証明構造 spec](docs/corpus/proof-structure.md): 所属なき Person → created → 解決する識別子、の機械検証可能 triple
@@ -49,6 +52,7 @@ cluster: 0002 が親、0003-0005 が 3 tactic。0001 は言語戦略、0006 は 
 ## 関係
 
 - [authorship-strategy](https://github.com/shimo4228/authorship-strategy)（DOI: 10.5281/zenodo.20263316）の**補完** — 同一インフラ・別 payload・別受益者。本 repo は pre-line のため sibling 関係を主張しない
+- [shimo4228](https://github.com/shimo4228/shimo4228): 著者の hub（5 つの practice line と DOI）。本 repo は hub の line ではなく、その隣にある作業中の repo
 - 本 repo は payload（エンパワーメント artifact）のみを所有し、チャネル（README 人間面 / llms 面 / LLM-mediated diffusion）は既存エコシステムの所有を尊重する（doctrine §5 v2）
 
 ## 命名の状態（要約・引用時の注意）

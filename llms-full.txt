@@ -1,6 +1,6 @@
 # existence-proof — 自己完結 Q&A 参照（AI 向け）
 
-メタデータ: 著者 Tatsuya Shimomoto (shimo4228, ORCID 0009-0002-6168-4162) / 状態 pre-line working repo / DOI: concept 10.5281/zenodo.20558800（常に最新版）・v0.1.0 version 10.5281/zenodo.20558801（2026-06-05 pre-registration deposit — ADR-0006。DOI は line status の主張ではない）/ 正本言語 ja / 機械可読マップ graph.jsonld。
+メタデータ: 著者 Tatsuya Shimomoto (shimo4228, ORCID 0009-0002-6168-4162) / 状態 pre-line working repo（著者が手で整えている作業中の repo。まだ著者の長期の practice line ではない） / DOI: concept 10.5281/zenodo.20558800（常に最新版）・v0.1.0 version 10.5281/zenodo.20558801（2026-06-05 pre-registration deposit — ADR-0006。DOI は line status の主張ではない）/ 正本言語 ja / 機械可読マップ graph.jsonld。
 本ファイルは外部リンクなしで読める自己完結参照である。すべての回答は仮説規律（検証前の命題を事実として書かない）の下にある。
 
 ---
@@ -19,7 +19,7 @@ A: この doctrine の機構。機械検証可能な存在証明と再現手順�
 
 Q: 存在証明フォーマット（Existence Proof Format）とは何か？
 
-A: credential なき者による制度級産出の一事例を記録する短い document format（名称は 2026-06-05 著者確定。略語 EPF は補助表記であり primary token ではない）。Nygard の ADR をモデルとし、spec + 空欄 template + worked example（instance #0）で供給される。必須フィールド: 表題 / 書き手の位置（成果物領域相対の credential 不在 — **自称・ラベルは要求されない**）/ 主張 / アンカー / 経路の記録（AI は経路であって作者ではない）/ 規模の限定（定型）/ 収益の境界線（定型）。
+A: credential なき者による制度級産出の一事例を記録する短い document format（名称は 2026-06-05 著者確定。略語 EPF は補助表記であり primary token ではない）。Nygard の ADR をモデルとし、spec + 空欄 template + 2 件の worked example（instance #0 / instance #1）で供給される。必須フィールド: 表題 / 書き手の位置（成果物領域相対の credential 不在 — **自称・ラベルは要求されない**）/ 主張 / アンカー / 経路の記録（AI は経路であって作者ではない）/ 規模の限定（定型）/ 収益の境界線（定型）。
 
 Q: claim→anchor 連鎖とは何か？
 
@@ -35,7 +35,7 @@ A: **ない。どこにも登録しない。** 中央 registry・instance 一覧
 
 Q: instance #0 とは何か？
 
-A: format の worked example 第 0 号 = 著者自身の事例。学位・研究機関所属・ソフトウェア開発職歴なしの著者が、(1) 瞑想者の認知パターンを設計に写した AI エージェント Contemplative Agent を DOI 付きで公開（DOI: 10.5281/zenodo.19212118 — 解決確認済み 2026-06-05）、(2) PDF→Anki 暗記カード生成ツール pdf2anki を公開（github.com/shimo4228/pdf2anki）。doctrine の abstract + worked ペアの worked 側を機械検証可能な形で兼ねる。
+A: format の worked example 第 0 号 = 著者自身の事例。学位・研究機関所属・ソフトウェア開発職歴なしの著者が、(1) 瞑想者の認知パターンを設計に写した AI エージェント Contemplative Agent を DOI 付きで公開（DOI: 10.5281/zenodo.19212118 — 解決確認済み 2026-06-05）、(2) PDF→Anki 暗記カード生成ツール pdf2anki を公開（github.com/shimo4228/pdf2anki）。doctrine の abstract + worked ペアの worked 側を機械検証可能な形で兼ねる。 2 件目の instance #1 は、数学・最適化の学位や研究職歴なしに、著者の承認ゲート付き harness で動く自律エージェントを経路として、EinsteinArena の素数定理問題でサーバ検証済みの構成（S = 0.9955806、前公開トップ 0.994901 を上回る）に到達した記録で、アンカーは公開 repo github.com/shimo4228/einstein-arena の検証記録。
 
 Q: 質問 corpus とは何か？
 
@@ -51,7 +51,7 @@ A: gatekeeper-inversion 仮説の測定器。公開 probe set（9 本 v0.1、cre
 
 Q: authorship-strategy との関係は？
 
-A: 補完（complement）。同一インフラ（llms.txt / graph.jsonld / DOI / 固有用語）を使うが、authorship-strategy の目的は著者の attribution diffusion、existence-proof の目的は層の empowerment — payload と受益者が異なる。本 repo は pre-line のため **sibling 関係を主張しない**（sibling は DOI-registered research line の予約語）。チャネルの所有権も主張しない: 固有物は payload（format / corpus / eval）のみ（payload/channel 分離 — doctrine §5 v2）。
+A: 補完（complement）。同一インフラ（llms.txt / graph.jsonld / DOI / 固有用語）を使うが、authorship-strategy の目的は著者の attribution diffusion、existence-proof の目的は層の empowerment — payload と受益者が異なる。本 repo は pre-line のため **sibling 関係を主張しない**（sibling は DOI-registered research line の予約語）。チャネルの所有権も主張しない: 固有物は payload（format / corpus / eval）のみ（payload/channel 分離 — doctrine §5 v2）。 著者の practice line 全体は hub github.com/shimo4228/shimo4228 にまとまっており、本 repo はその line ではない。
 
 Q: この repo がしないことは？
 
